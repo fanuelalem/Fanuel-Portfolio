@@ -285,7 +285,7 @@ inverted
 
      <p text className="para"style={{backgroundColor:'#1b1c1d',color:'white',padding:'20px'}}>
        <a style={{color:'white'}} href='http://localhost:3000/'>
-       © 2020 Copyright Fanuel Alem.
+       <span id='sayhello'> © 2020 Copyright Fanuel Alem.</span> 
 
        </a>
       <span className='spann'>

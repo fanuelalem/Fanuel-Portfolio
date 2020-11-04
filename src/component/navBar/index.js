@@ -35,7 +35,7 @@ export default class NavBar extends Component {
  
            <Menu.Item>
            <div>
-    <Image src='portfolio.png' avatar />
+    {/* <Image src='portfolio.png' avatar /> */}
     <span style={{color:'white'}}>Fanuel Alem</span>
   </div>
           {/* <p style={{color:'white'}}>Fanuel Alem</p> */}
@@ -69,7 +69,7 @@ export default class NavBar extends Component {
             active={activeItem === 'Contact'}
             onClick={this.handleItemClick}>
 
- <a href='#sayhello'>
+ <a href='#sayhello' >
  <p style={{color:'white'}}>Contact</p>
 
  </a>
@@ -77,14 +77,14 @@ export default class NavBar extends Component {
             
  
           </Menu.Item>
-          <Menu.Item
+          {/* <Menu.Item
             as={Link}
              name='Learn'
             active={activeItem === 'Learn'}
             onClick={this.handleItemClick}
           >
     <p style={{color:'white'}}>Learn</p>
-    </Menu.Item>
+    </Menu.Item> */}
 </Menu.Menu>
         </Menu>
 
