@@ -1,0 +1,319 @@
+import React, { Component } from 'react'
+import './../../index.css'
+import picture from './../../component/Images/crop.jpg'
+import {
+    Container,
+    Header,
+    Card,
+    Button,
+    Icon,
+    Grid,
+    Menu,
+    Segment,Image,Divider,
+
+} from 'semantic-ui-react'
+import happytravel from './../../component/Images/happytrav.png'
+ import jedipic from './../../component/Images/jedipic.png'
+ import stock from './../../component/Images/stock.png'
+export default class Portfolio extends Component {
+    render() {
+        return (
+            <div>
+
+             <div className='starting-out'>
+                <Container>
+
+                    <Header style={{fontSize:'6em'}}>
+                        
+                        <p > Portfolio</p> </Header>
+
+                        <Header  
+inverted
+        style={{
+        fontSize: '1.8em',
+        // fontWeight: 'normal',
+        
+        }}
+    >
+  
+      <p className='name'>                      A collection of work I've done.
+</p>
+        
+      </Header>
+                        
+                       
+                     
+
+                    </Container>
+
+
+            </div>
+            
+            
+            <div style={{textAlign:'left',marginBottom:'25px'}}>
+
+            Photo by <a href='https://www.pexels.com/@belart84'>Artem Beliaikin</a> from <a href="https://www.pexels.com/">Pexels</a> </div>
+
+ 
+<br></br>
+<br></br>
+<br></br>
+
+
+ <Container className='pdot' text>
+
+<Header style={{fontSize:'4em'}}>
+    <p className='dc'  > Starting Out.</p>
+</Header>
+ <p style={{fontSize:'1.2em'}}>We've all got to start somewhere.</p>
+<p style={{fontSize:'1.2em'}}>A collection of projects I did as a student.</p>
+ </Container>
+ 
+            
+             
+   
+<Segment style={{padding:'2em 0em 6em'}} vertical>
+ 
+
+<div className='card-containers' >
+
+    
+  <div className='image-container'>
+ <div className='pic'>
+ <Image className='image__img'  src={jedipic}   />
+ <div className='image__overlay image__overlay--blur'>
+
+<div className='image__title'> title</div>
+<p className='image__description'> this is the description</p>
+ </div>
+
+ </div>
+    
+ <div className='pic'>
+ <Image className='image__img'  src={jedipic}   />
+ <div className='image__overlay image__overlay--blur'>
+
+<div className='image__title'> title</div>
+<p className='image__description'> this is the description</p>
+ </div>
+
+ </div>
+ <div className='pic'>
+ <Image className='image__img'  src={jedipic}   />
+ <div className='image__overlay image__overlay--blur'>
+
+<div className='image__title'> title</div>
+<p className='image__description'> this is the description</p>
+ </div>
+
+ </div>
+ <div className='pic'>
+ <Image className='image__img'  src={jedipic}   />
+ <div className='image__overlay image__overlay--blur'>
+
+<div className='image__title'> title</div>
+<p className='image__description'> this is the description</p>
+ </div>
+
+ </div>
+ <div className='pic'>
+ <Image className='image__img'  src={jedipic}   />
+ <div className='image__overlay image__overlay--blur'>
+
+<div className='image__title'> title</div>
+<p className='image__description'> this is the description</p>
+ </div>
+
+ </div>
+ <div className='pic'>
+ <Image className='image__img'  src={jedipic}   />
+ <div className='image__overlay image__overlay--blur'>
+
+<div className='image__title'> title</div>
+<p className='image__description'> this is the description</p>
+ </div>
+
+ </div>
+
+ <div className='pic'>
+ <Image className='image__img'  src={jedipic}   />
+ <div className='image__overlay image__overlay--blur'>
+
+<div className='image__title'> title</div>
+<p className='image__description'> this is the description</p>
+ </div>
+
+ </div>
+
+ <div className='pic'>
+ <Image className='image__img'  src={stock}   />
+ <div className='image__overlay image__overlay--blur'>
+
+<div className='image__title'> title</div>
+<p className='image__description'> this is the description</p>
+ </div>
+
+ </div>
+
+   
+
+   </div>
+  </div>
+ 
+ 
+ 
+</Segment>
+
+<br></br>
+<br></br>
+<br></br>
+
+
+
+ <Container className='pdot' text>
+
+<Header style={{fontSize:'4em'}}>
+    <p className='dc'  >  Teamwork</p>
+</Header>
+ <p style={{ fontSize: '1.2em',margin:'0' }}>A collection of projects that I collaborated on.
+
+
+
+
+
+</p> 
+ </Container>
+
+ 
+ 
+ 
+
+ <Segment style={{padding:'2em 0em 10em'}} vertical>
+
+<div className='card-containers' >
+
+
+    
+  <div className='image-container'>
+ <div className='pic'>
+ <Image className='image__img'  src={jedipic}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+   <h2> The Jedi Code</h2>
+   <br></br>
+ <p> A full stack application that grades a user's response in an interactive trivia game to decide whether they are a jedi or a sith.</p>
+ <p>Made using: HTML, CSS, JavaScript, React, NodeJs, SQL, and Heroku.
+</p> 
+<br></br>
+<a href='https://thejedicode.herokuapp.com/#/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/Project-02' target='_blank'>
+<i style={{color:'white'}} className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ </div>
+
+ </div>
+    
+ <div className='pic'>
+ <Image className='image__img'  src={happytravel}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+   <h2> Happy Travels</h2>
+   <br></br>
+ <p> This application gives users relevant information on local restaurants, events, and weather based on location and date.</p>
+ <p>Made using: HTML, CSS, JavaScript,jQuery, Bootstrap, and GitHub Pages.
+</p> 
+<br></br>
+<a href='https://fanuelalem.github.io/happytravel/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+
+<a href='https://github.com/fanuelalem/happytravel' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ </div>
+
+ </div>
+
+ <div className='pic'>
+ <Image className='image__img'  src={stock}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+   <h2> Stock Tracker</h2>
+   <br></br>
+ <p> This application will provide information on the stock markets top 10 winners and gainers of the day. It gives users an informative insight and allows them to manage them on a watchlist. Users can also share and connect with other users.</p>
+ <p>Made using: HTML, CSS, JavaScript, Semantics UI, React, NodeJs, Mongo, PassportJS and Heroku.
+</p> 
+<br></br>
+<a href='https://thawing-bastion-89215.herokuapp.com/#/' target='_blank' > 
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/Project-3' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ </div>
+
+ </div>
+
+  {/* <Image style={{margin:'.5rem'}}src={happytravel} size='large' /> */}
+  {/* <Image style={{margin:'.5rem'}}src={stock} size='large' /> */}
+
+   </div>
+  </div>
+  
+   
+</Segment>
+ 
+ 
+<Container fluid>
+
+     <p text className="para"style={{backgroundColor:'#1b1c1d',color:'white',padding:'20px'}}>
+       <a style={{color:'white'}} href='http://localhost:3000/'>
+       © 2020 Copyright Fanuel Alem.
+
+       </a>
+      <span className='spann'>
+<span className='git-icon'>
+  <a style={{color:'white'}}href='https://github.com/fanuelalem'> <Icon style={{fontSize:'1.7rem'}}name='github'></Icon>
+</a>
+ 
+</span>
+<span className='linkedin-icon'>
+  <a style={{color:'white'}}href='https://www.linkedin.com/in/fanuel-alem-12991b32/'>
+  <Icon style={{fontSize:'1.7rem'}} name='linkedin'></Icon>
+
+  </a>
+ 
+</span>
+<span>
+  <a style={{color:'white'}} href='mailto:fanuelnalem@outlook.com'> 
+<Icon style={{fontSize:'1.7rem'}}name='mail'></Icon>
+</a>
+</span>
+ </span>
+
+    </p>
+    
+    </Container>
+              </div>
+
+ 
+        )
+    }
+}
