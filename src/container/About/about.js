@@ -20,8 +20,7 @@ import './../../index.css'
 
 import { right } from '@popperjs/core'
 
-// const sayhello = document.getElementById('sayhello')
-
+ 
  
 export default class About extends Component {
     
