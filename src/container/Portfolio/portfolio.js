@@ -188,7 +188,7 @@ inverted
  
  
 
- <Segment style={{padding:'2em 0em 10em'}} vertical>
+ <Segment style={{padding:'2em 0em 6em'}} vertical>
 
 <div className='card-containers' >
 
@@ -280,7 +280,45 @@ inverted
    
 </Segment>
  
+<Segment style={{ padding: '6em 0em' }}vertical>
+<Container  text>
+
  
+<Header  as='h3' style={{ fontSize: '4em' }}>
+
+   <span id='sayhello'> Say hello</span> 
+        </Header>
+<br></br>
+        <p style={{ fontSize: '1.2em' }}>Reach out and say hi or connect with me. I look forward to hearing from you.
+
+
+
+</p>
+<br></br>
+
+<a href='mailto:fanuelnalem@outlook.com'>
+<Button color="linkedin"size='large'> <Icon name='mail'> </Icon> email me</Button>
+
+</a>
+ <br></br>
+ 
+ <br></br>
+
+
+
+
+<div>    
+  
+
+ <br></br>
+ 
+ <a href='https://www.linkedin.com/in/fanuel-alem-12991b32/' target="_blank"> <Icon color='black'style={{fontSize:'2.8rem'}}name='linkedin'></Icon></a>  
+ <a href='https://github.com/fanuelalem' target="_blank"><Icon color='black' style={{fontSize:'2.8rem'}}name='github'></Icon> </a>   
+</div>
+ 
+       </Container>
+ 
+</Segment>
 <Container fluid>
 
      <p text className="para"style={{backgroundColor:'#1b1c1d',color:'white',padding:'20px'}}>

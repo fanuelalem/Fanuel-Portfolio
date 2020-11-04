@@ -334,9 +334,11 @@ Portfolio
 <Button color="linkedin"size='large'> <Icon name='mail'> </Icon> email me</Button>
 
 </a>
- <br></br>
-<br></br>
-<br></br>
+  
+  <br></br>
+  <br></br>
+  <br></br>
+
 
 
 
