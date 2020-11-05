@@ -12,9 +12,17 @@ import {
     Segment,Image,Divider,
 
 } from 'semantic-ui-react'
+import quiz from './../../component/Images/quiz-app.png'
+
 import happytravel from './../../component/Images/happytrav.png'
+import pwgenerator from './../../component/Images/password-generator.png'
+ import weather from './../../component/Images/weather.png'
  import jedipic from './../../component/Images/jedipic.png'
+ import dayplanner from './../../component/Images/day-planner.png'
  import stock from './../../component/Images/stock.png'
+ import readmegenerator from './../../component/Images/readmegenerator.png'
+ 
+
 export default class Portfolio extends Component {
     render() {
         return (
@@ -79,25 +87,162 @@ inverted
 
     
   <div className='image-container'>
- <div className='pic'>
- <Image className='image__img'  src={jedipic}   />
+  <div className='pic'>
+ <Image className='image__img'  src={pwgenerator}   />
  <div className='image__overlay image__overlay--blur'>
 
-<div className='image__title'> title</div>
-<p className='image__description'> this is the description</p>
+<div style={{padding:'20px'}}>
+   <h2> Password Generator</h2>
+   <br></br>
+ <p> A web application that uses prompts to generate a random password.</p>
+ <p>Made using: Made using: HTML, CSS, JavaScript, and GitHub Pages.
+</p> 
+<br></br>
+<a href='https://fanuelalem.github.io/password-generator/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/password-generator' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
  </div>
 
  </div>
     
  <div className='pic'>
- <Image className='image__img'  src={jedipic}   />
+ <Image className='image__img'  src={quiz}   />
  <div className='image__overlay image__overlay--blur'>
 
-<div className='image__title'> title</div>
-<p className='image__description'> this is the description</p>
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>  quiz-app
+</h2>
+   <br></br>
+ <p>  A web application that tests a user's JavaScript knowledge.
+
+
+</p>
+ <p>Made using: HTML, JavaScript, Bootstrap, and GitHub Pages.
+
+</p> 
+<br></br>
+<a href='https://fanuelalem.github.io/hw4/index.html' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/hw4' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
  </div>
 
  </div>
+ <div className='pic'>
+ <Image className='image__img'  src={dayplanner}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>   Work Day Scheduler
+ 
+ </h2>
+   <br></br>
+ <p>   A web application that allows a user to plan their workday.
+
+</p>
+ <p>Made using: HTML, JavaScript, jQuery, Bootstrap, and Moment.js.
+
+
+</p> 
+<br></br>
+<a href='https://fanuelalem.github.io/hw_5/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/hw_5' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
+ </div>
+
+ </div>
+ <div className='pic'>
+ <Image className='image__img'  src={weather}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>  Weather Dashboard
+</h2>
+   <br></br>
+ <p>  A web application that provides the current weather and a 5-day forecast for a city.
+</p>
+ <p>Made using: HTML, CSS, JavaScript, jQuery, Bootstrap, OpenWeather API, Moment.js, and GitHub Pages.
+
+</p> 
+<br></br>
+<a href='https://fanuelalem.github.io/weather-app/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/weather-app' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
+ </div>
+
+ </div>
+
+ <div className='pic'>
+ <Image className='image__img'  src={readmegenerator}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>  Good ReadMe Generator
+</h2>
+   <br></br>
+ <p>   A command-line application that will create a 'readme' file based off user input.
+
+ </p>
+ <p>Made using: Node.js, Axios, Dotenv, and Inquirer.
+
+
+</p> 
+<br></br>
+ 
+<a href='https://github.com/fanuelalem/readme-generator' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
+ </div>
+
+ </div>
+
+  
  <div className='pic'>
  <Image className='image__img'  src={jedipic}   />
  <div className='image__overlay image__overlay--blur'>

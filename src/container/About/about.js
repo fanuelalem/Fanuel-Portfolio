@@ -16,6 +16,7 @@ import './../../index.css'
  import stock from './../../component/Images/stock.png'
  import pwgenerator from './../../component/Images/password-generator.png'
  import weather from './../../component/Images/weather.png'
+ import quiz from './../../component/Images/quiz-app.png'
  import Resume from './../../component/Images/FAResume.pdf'
 
 import { right } from '@popperjs/core'
@@ -271,6 +272,8 @@ Portfolio
  </div>
 
  </div>
+
+ 
 
  <div className='pic'>
  <Image className='image__img'  src={stock}   />
