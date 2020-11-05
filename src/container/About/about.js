@@ -19,8 +19,7 @@ import './../../index.css'
  import Resume from './../../component/Images/FAResume.pdf'
 
 import { right } from '@popperjs/core'
-
- 
+  
  
 export default class About extends Component {
     
@@ -104,7 +103,7 @@ inverted
         <Grid.Row>
           <Grid.Column width={8}>
             <Header as='h3' style={{ fontSize: '2.5em' }}>
-          About me            
+         <span id='about-me'> About me </span>             
           </Header>
           <br>
           </br>

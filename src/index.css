@@ -13,6 +13,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
   
 .navy{
   top: 0;
@@ -23,8 +24,20 @@ code {
     background-color: #1b1c1d;
     padding-left: 25px;
     padding-right: 25px;
+    color:orange
    
  
+ }
+ .nav-text{
+    
+   color:white;
+   font-size:20px
+ }
+ .scroll{
+   scroll-behavior: auto;
+ }
+ .nav-text:hover{
+   color:#007bff
  }
  
 .lleft-menu-i{

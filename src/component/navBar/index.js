@@ -30,13 +30,13 @@ export default class NavBar extends Component {
 
 
 
-  <Menu size='massive' secondary className='inverteds' >
+  <Menu   secondary className='inverteds' >
         <Menu.Menu position='left'>
  
            <Menu.Item>
            <div>
     {/* <Image src='portfolio.png' avatar /> */}
-    <span style={{color:'white'}}>Fanuel Alem</span>
+    <span className='nav-text'  ><h3>Fanuel Alem </h3> </span>
   </div>
           {/* <p style={{color:'white'}}>Fanuel Alem</p> */}
           </Menu.Item>
@@ -46,12 +46,14 @@ export default class NavBar extends Component {
     <Menu.Item
     as={Link}
     to='/'
+    activeClassName='about-sec'
     name='About'
     active={activeItem === 'About'}
     onClick={this.handleItemClick}
           >
-        <p style={{color:'white'}}>About</p>
-
+         <h3 className='nav-text'  >
+            About </h3>
+ 
           </Menu.Item>
 
            <Menu.Item
@@ -61,7 +63,7 @@ export default class NavBar extends Component {
             active={activeItem === 'Portfolio'}
             onClick={this.handleItemClick}
             >
-              <p style={{color:'white'}}>Portfolio</p>
+              <h3 className='nav-text'  >Portfolio</h3>
               </Menu.Item>
            <Menu.Item
             // as={Link}
@@ -70,7 +72,7 @@ export default class NavBar extends Component {
             onClick={this.handleItemClick}>
 
  <a href='#sayhello' >
- <p style={{color:'white'}}>Contact</p>
+ <h3 className='nav-text'  >Contact</h3>
 
  </a>
  
