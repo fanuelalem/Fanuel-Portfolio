@@ -36,7 +36,7 @@ export default class NavBar extends Component {
            <Menu.Item>
            <div>
     {/* <Image src='portfolio.png' avatar /> */}
-    <span className='nav-text'  ><h3>Fanuel Alem </h3> </span>
+    <span className='nav-text'  > <a className='name-nav'  href='https://fanuel-portfolio.herokuapp.com/'> <h2>Fanuel Alem </h2></a>  </span>
   </div>
           {/* <p style={{color:'white'}}>Fanuel Alem</p> */}
           </Menu.Item>

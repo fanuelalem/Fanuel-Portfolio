@@ -33,13 +33,19 @@ code {
    color:white;
    font-size:20px
  }
+ 
  .scroll{
    scroll-behavior: auto;
  }
  .nav-text:hover{
    color:#007bff
  }
- 
+ .name-nav:hover{
+  color:#007bff
+}
+ .name-nav{
+   color:white
+ }
 .lleft-menu-i{
   color:orange
 }
