@@ -13,13 +13,18 @@ import {
 
 } from 'semantic-ui-react'
 import quiz from './../../component/Images/quiz-app.png'
-
+import profilegenerator from './../../component/Images/profiler-generator.png'
 import happytravel from './../../component/Images/happytrav.png'
 import pwgenerator from './../../component/Images/password-generator.png'
  import weather from './../../component/Images/weather.png'
  import jedipic from './../../component/Images/jedipic.png'
  import dayplanner from './../../component/Images/day-planner.png'
+ import employeetracker from './../../component/Images/employee-tracker.png'
  import stock from './../../component/Images/stock.png'
+ import employeedirectory from './../../component/Images/employee-directory.png'
+ import teamprofile from './../../component/Images/team-profile.png'
+ import notetaker from './../../component/Images/noteTaker.png'
+ import fitnesstracker from './../../component/Images/fitnessTracker2.png'
  import readmegenerator from './../../component/Images/readmegenerator.png'
  
 
@@ -211,7 +216,7 @@ inverted
 
  </div>
 
- <div className='pic'>
+ {/* <div className='pic'>
  <Image className='image__img'  src={readmegenerator}   />
  <div className='image__overlay image__overlay--blur'>
 
@@ -240,65 +245,223 @@ inverted
  
  </div>
 
+ </div> */}
+
+ <div className='pic'>
+ <Image className='image__img'  src={profilegenerator}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>  Profile-Generator
+</h2>
+   <br></br>
+ <p>   A command-line application that will generate a profile in html based off user input.
+
+ </p>
+ <p>Made using: Node.js, Axios, Dotenv, and Inquirer.
+
+
+</p> 
+<br></br>
+ 
+<a href='https://github.com/fanuelalem/profile_generator' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
  </div>
 
+ </div>
   
  <div className='pic'>
- <Image className='image__img'  src={jedipic}   />
+ <Image className='image__img'  src={teamprofile}   />
  <div className='image__overlay image__overlay--blur'>
 
-<div className='image__title'> title</div>
-<p className='image__description'> this is the description</p>
- </div>
+ <div style={{padding:'20px'}}>
 
- </div>
- <div className='pic'>
- <Image className='image__img'  src={jedipic}   />
- <div className='image__overlay image__overlay--blur'>
 
-<div className='image__title'> title</div>
-<p className='image__description'> this is the description</p>
- </div>
+ 
+    <h2>  Team-Profile Generator
+</h2>
+   <br></br>
+ <p>    A command-line application that will create an HTML file with employee information gathered from a series of prompts.
 
- </div>
- <div className='pic'>
- <Image className='image__img'  src={jedipic}   />
- <div className='image__overlay image__overlay--blur'>
+ 
+ </p>
+ <p>
+   
+ Made using: Node.js, Inquirer, and Jest.
 
-<div className='image__title'> title</div>
-<p className='image__description'> this is the description</p>
- </div>
 
- </div>
- <div className='pic'>
- <Image className='image__img'  src={jedipic}   />
- <div className='image__overlay image__overlay--blur'>
 
-<div className='image__title'> title</div>
-<p className='image__description'> this is the description</p>
+</p> 
+<br></br>
+ 
+<a href='https://github.com/fanuelalem/team-profile-generator' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
  </div>
 
  </div>
 
  <div className='pic'>
- <Image className='image__img'  src={jedipic}   />
+ <Image className='image__img'  src={notetaker}   />
  <div className='image__overlay image__overlay--blur'>
 
-<div className='image__title'> title</div>
-<p className='image__description'> this is the description</p>
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>  Notetaker
+</h2>
+   <br></br>
+ <p>   
+ A web application that allows a user to take notes using Express.
+
+  
+ </p>
+ <p>
+   
+ Made using: HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js, Express, UUID, and Heroku.
+
+
+
+</p> 
+<br></br>
+ 
+<a href='https://fanuelnotetaker.herokuapp.com/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/Note_Taker' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
  </div>
 
  </div>
 
  <div className='pic'>
- <Image className='image__img'  src={stock}   />
+ <Image className='image__img'  src={employeetracker}   />
  <div className='image__overlay image__overlay--blur'>
 
-<div className='image__title'> title</div>
-<p className='image__description'> this is the description</p>
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>   Employee Management System
+
+</h2>
+   <br></br>
+ <p>   
+ A command-line application for adding, viewing, updating, and deleting employee information.
+
+Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
+ </p>
+ <p>Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
+
+
+
+</p> 
+<br></br>
+ 
+<a href='https://github.com/fanuelalem/employee-tracker' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
  </div>
 
  </div>
+ <div className='pic'>
+ <Image className='image__img'  src={fitnesstracker}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>    Fitness Tracker
+
+ 
+ </h2>
+   <br></br>
+ <p>   A web application that allows a user to plan their workday.
+ A web application that allows a user to create and track their workouts.
+
+ </p>
+ <p>Made using: Express, MongoDB, Mongoose, Morgan, and Heroku.
+
+
+
+</p> 
+<br></br>
+<a href='https://fanuelfitnesstracker.herokuapp.com/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/fitness-tracker' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
+ </div>
+
+ </div>
+ <div className='pic'>
+ <Image className='image__img'  src={employeedirectory}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>    Employee Directory
+
+ 
+ </h2>
+   <br></br>
+ <p>   
+ A web application that lists employee information.
+
+ </p>
+ <p>Made using: React, Random User Generator API, and Heroku.
+
+
+
+</p> 
+<br></br>
+<a href='https://fanueled.herokuapp.com/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/employee-directory' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
+ </div>
+
+ </div>
+ 
 
    
 
