@@ -503,31 +503,8 @@ Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
 
     
   <div className='image-container'>
- <div className='pic'>
- <Image className='image__img'  src={jedipic}   />
- <div className='image__overlay image__overlay--blur'>
-
- <div style={{padding:'20px'}}>
-   <h2> The Jedi Code</h2>
-   <br></br>
- <p> A full stack application that grades a user's response in an interactive trivia game to decide whether they are a jedi or a sith.</p>
- <p>Made using: HTML, CSS, JavaScript, React, NodeJs, SQL, and Heroku.
-</p> 
-<br></br>
-<a href='https://thejedicode.herokuapp.com/#/' target='_blank'>
-<i style={{color:'white'}}className="fas fa-link link"></i>
-
-</a>
-<a href='https://github.com/fanuelalem/Project-02' target='_blank'>
-<i style={{color:'white'}} className="fab fa-github github"></i>
-
-</a>
-  </div>
-
- </div>
-
- </div>
-    
+  
+ 
  <div className='pic'>
  <Image className='image__img'  src={happytravel}   />
  <div className='image__overlay image__overlay--blur'>
@@ -553,7 +530,6 @@ Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
  </div>
 
  </div>
-
  <div className='pic'>
  <Image className='image__img'  src={stock}   />
  <div className='image__overlay image__overlay--blur'>
@@ -578,6 +554,32 @@ Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
  </div>
 
  </div>
+  
+ <div className='pic'>
+ <Image className='image__img'  src={jedipic}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+   <h2> The Jedi Code</h2>
+   <br></br>
+ <p> A full stack application that grades a user's response in an interactive trivia game to decide whether they are a jedi or a sith.</p>
+ <p>Made using: HTML, CSS, JavaScript, React, NodeJs, SQL, and Heroku.
+</p> 
+<br></br>
+<a href='https://thejedicode.herokuapp.com/#/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/Project-02' target='_blank'>
+<i style={{color:'white'}} className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ </div>
+
+ </div>
+ 
 
   {/* <Image style={{margin:'.5rem'}}src={happytravel} size='large' /> */}
   {/* <Image style={{margin:'.5rem'}}src={stock} size='large' /> */}

@@ -273,9 +273,33 @@ Portfolio
 
  </div>
 
- 
-
  <div className='pic'>
+ <Image className='image__img'  src={happytravel}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+   <h2> Happy Travels</h2>
+   <br></br>
+ <p> This application gives users relevant information on local restaurants, events, and weather based on location and date.</p>
+ <p>Made using: HTML, CSS, JavaScript,jQuery, Bootstrap, and GitHub Pages.
+</p> 
+<br></br>
+<a href='https://fanuelalem.github.io/happytravel/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+
+<a href='https://github.com/fanuelalem/happytravel' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ </div>
+
+ </div>
+
+ {/* <div className='pic'>
  <Image className='image__img'  src={stock}   />
  <div className='image__overlay image__overlay--blur'>
 
@@ -298,7 +322,7 @@ Portfolio
 
  </div>
 
- </div>
+ </div> */}
 
   {/* <Image style={{margin:'.5rem'}}src={happytravel} size='large' /> */}
   {/* <Image style={{margin:'.5rem'}}src={stock} size='large' /> */}
