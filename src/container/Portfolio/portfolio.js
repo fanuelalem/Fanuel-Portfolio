@@ -537,7 +537,8 @@ Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
  <div style={{padding:'20px'}}>
    <h2> Stock Tracker</h2>
    <br></br>
- <p> This application will provide information on the stock markets top 10 winners and gainers of the day. It gives users an informative insight and allows them to manage them on a watchlist. Users can also share and connect with other users.</p>
+ <p> This application is a helpful tool that helps you save stocks onto a personal wathclist. It provides information on the stock markets top 10 winners and losers of the day. 
+Users can also search and track any stock in the market and view stocks that are trending among other users.</p>
  <p>Made using: HTML, CSS, JavaScript, Semantics UI, React, NodeJs, Mongo, PassportJS and Heroku.
 </p> 
 <br></br>
