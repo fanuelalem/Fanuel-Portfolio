@@ -18,6 +18,7 @@ import './../../index.css'
  import weather from './../../component/Images/weather.png'
  import quiz from './../../component/Images/quiz-app.png'
  import Resume from './../../component/Images/FAResume.pdf'
+ import buil from './../../component/Images/buil.jpg'
 
 import { right } from '@popperjs/core'
   
