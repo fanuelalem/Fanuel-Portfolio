@@ -92,7 +92,7 @@ inverted
 
     
   <div className='image-container'>
-  <div className='pic'>
+  {/* <div className='pic'>
  <Image className='image__img'  src={pwgenerator}   />
  <div className='image__overlay image__overlay--blur'>
 
@@ -115,7 +115,7 @@ inverted
 
  </div>
 
- </div>
+ </div> */}
     
  <div className='pic'>
  <Image className='image__img'  src={quiz}   />
@@ -150,7 +150,11 @@ inverted
  </div>
 
  </div>
- <div className='pic'>
+
+  
+
+
+ {/* <div className='pic'>
  <Image className='image__img'  src={dayplanner}   />
  <div className='image__overlay image__overlay--blur'>
 
@@ -183,8 +187,9 @@ inverted
  
  </div>
 
- </div>
- <div className='pic'>
+ </div> */}
+
+<div className='pic'>
  <Image className='image__img'  src={weather}   />
  <div className='image__overlay image__overlay--blur'>
 
@@ -214,7 +219,45 @@ inverted
  
  </div>
 
+ </div> 
+<div className='pic'>
+ <Image className='image__img'  src={employeetracker}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>   Employee Management System
+
+</h2>
+   <br></br>
+ <p>   
+ A command-line application for adding, viewing, updating, and deleting employee information.
+
+Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
+ </p>
+ <p>Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
+
+
+
+</p> 
+<br></br>
+ 
+<a href='https://github.com/fanuelalem/employee-tracker' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
  </div>
+
+ </div>
+
+ 
+
+  
 
  {/* <div className='pic'>
  <Image className='image__img'  src={readmegenerator}   />
@@ -247,7 +290,8 @@ inverted
 
  </div> */}
 
- <div className='pic'>
+  
+<div className='pic'>
  <Image className='image__img'  src={profilegenerator}   />
  <div className='image__overlay image__overlay--blur'>
 
@@ -255,7 +299,7 @@ inverted
 
 
  
-    <h2>  Profile-Generator
+    <h2>  Github Profile-Generator
 </h2>
    <br></br>
  <p>   A command-line application that will generate a profile in html based off user input.
@@ -278,7 +322,7 @@ inverted
 
  </div>
   
- <div className='pic'>
+ {/* <div className='pic'>
  <Image className='image__img'  src={teamprofile}   />
  <div className='image__overlay image__overlay--blur'>
 
@@ -311,9 +355,9 @@ inverted
  
  </div>
 
- </div>
+ </div> */}
 
- <div className='pic'>
+ {/* <div className='pic'>
  <Image className='image__img'  src={notetaker}   />
  <div className='image__overlay image__overlay--blur'>
 
@@ -351,42 +395,9 @@ inverted
  
  </div>
 
- </div>
-
- <div className='pic'>
- <Image className='image__img'  src={employeetracker}   />
- <div className='image__overlay image__overlay--blur'>
-
- <div style={{padding:'20px'}}>
-
+ </div> */}
 
  
-    <h2>   Employee Management System
-
-</h2>
-   <br></br>
- <p>   
- A command-line application for adding, viewing, updating, and deleting employee information.
-
-Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
- </p>
- <p>Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
-
-
-
-</p> 
-<br></br>
- 
-<a href='https://github.com/fanuelalem/employee-tracker' target='_blank'>
-<i style={{color:'white'}}className="fab fa-github github"></i>
-
-</a>
-  </div>
-
- 
- </div>
-
- </div>
  <div className='pic'>
  <Image className='image__img'  src={fitnesstracker}   />
  <div className='image__overlay image__overlay--blur'>
@@ -505,31 +516,8 @@ Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
   <div className='image-container'>
   
  
- <div className='pic'>
- <Image className='image__img'  src={happytravel}   />
- <div className='image__overlay image__overlay--blur'>
+ 
 
- <div style={{padding:'20px'}}>
-   <h2> Happy Travels</h2>
-   <br></br>
- <p> This application gives users relevant information on local restaurants, events, and weather based on location and date.</p>
- <p>Made using: HTML, CSS, JavaScript,jQuery, Bootstrap, and GitHub Pages.
-</p> 
-<br></br>
-<a href='https://fanuelalem.github.io/happytravel/' target='_blank'>
-<i style={{color:'white'}}className="fas fa-link link"></i>
-
-</a>
-
-<a href='https://github.com/fanuelalem/happytravel' target='_blank'>
-<i style={{color:'white'}}className="fab fa-github github"></i>
-
-</a>
-  </div>
-
- </div>
-
- </div>
  <div className='pic'>
  <Image className='image__img'  src={stock}   />
  <div className='image__overlay image__overlay--blur'>
@@ -555,7 +543,6 @@ Users can also search and track any stock in the market and view stocks that are
  </div>
 
  </div>
-  
  <div className='pic'>
  <Image className='image__img'  src={jedipic}   />
  <div className='image__overlay image__overlay--blur'>
@@ -580,6 +567,35 @@ Users can also search and track any stock in the market and view stocks that are
  </div>
 
  </div>
+
+ <div className='pic'>
+ <Image className='image__img'  src={happytravel}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+   <h2> Happy Travels</h2>
+   <br></br>
+ <p> This application gives users relevant information on local restaurants, events, and weather based on location and date.</p>
+ <p>Made using: HTML, CSS, JavaScript,jQuery, Bootstrap, and GitHub Pages.
+</p> 
+<br></br>
+<a href='https://fanuelalem.github.io/happytravel/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+
+<a href='https://github.com/fanuelalem/happytravel' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ </div>
+
+ </div>
+  
+  
+  
  
 
   {/* <Image style={{margin:'.5rem'}}src={happytravel} size='large' /> */}
