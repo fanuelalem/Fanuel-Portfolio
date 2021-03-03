@@ -110,27 +110,38 @@ inverted
           <br>
           </br>
             <p style={{ fontSize: '1.2em' }}>
-              Initially, as I was exploring opportunities in business at San Francisco State University, 
-              I became an account manager for a tech company. In my role, I managed 100-200 different clients 
-              per day and got a chance to view their websites during the verification process.
-              The frequent exposure to different kinds of websites per day inspired me to become a web developer. 
-              My first experience with web development was when I was a student at San Francisco State University
-              taking computer science courses and building a simple blog website on a small team.   
+
+            Hi, I am a Full stack web developer leveraging a background in client management and 
+            product engineering in the tech industry to help build intuitive, engaging, and pleasant
+             user experiences on the web. I recently transitioned into web development and was previously 
+             an account manager at a tech company helping non-profits, charities, and churches gain access to 
+             technology tools like google products. In my role, I managed 100-200 different clients per day who 
+             showed me their websites for verification purposes. The frequent exposure to different kinds of websites
+              per day triggered my curiosity for web development. While business was my primary focus in college, I was 
+             heavily engaged in computer science courses as well. My first experience with web development was when I 
+              was a student at San Francisco State University taking computer science courses and building a simple blog 
+              website on a small team. I have become a part time web developer building new features for a startup and 
+              currently helping them scale.
+
+ 
+
+  
 
             </p>
            <br></br>
 
            <p style={{ fontSize: '1.2em' }}>
-              Most Recently earned a certificate in full stack web development from the 
-              University of California, Berkeley, with newly developed 
-              front end and back end skills including JavaScript, CSS, React.js, 
-              responsive web design, Node.js, API interface, SQL, and mongoose. 
-              Known as an innovative critical thinker that enjoys solving problems 
-              and passionate about developing full stack applications. 
-              With each project, my aim is to introduce efficient solutions 
-              to users and engage my audience for an impactful user experience. 
-              I’m excited to leverage my skills as part of a fast-paced, quality-driven
-               team to build better experiences on the web. 
+           Most Recently earned a certificate in full stack web development 
+           from the University of California, Berkeley, with newly developed 
+           front end and back end skills including JavaScript, CSS, Bootstrap, 
+           Semantics-UI, ReactJS, responsive web design, NodeJS, API interface, 
+           SQL, and mongoose. Known as an innovative critical thinker that enjoys 
+           solving problems and passionate about developing full stack applications. 
+           With each project, my aim is to introduce efficient solutions to users and 
+           engage my audience for an impactful user experience. I’m excited to leverage 
+           my skills as part of a fast-paced, quality-driven team to build better experiences 
+           on the web.
+
              
 
             </p>            <p style={{ fontSize: '1.33em' }}>
