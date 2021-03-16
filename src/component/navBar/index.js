@@ -26,22 +26,23 @@ export default class NavBar extends Component {
 
         return (
             <div>
-                <div className="navy">
+                <div className="navy" >
 
 
 
-  <Menu   secondary className='inverteds' >
-        <Menu.Menu position='left'>
+  <Menu secondary   >
+      
+        <Menu.Menu>
  
            <Menu.Item>
            <div>
-    {/* <Image src='portfolio.png' avatar /> */}
-    <span className='nav-text'  > <a className='name-nav'  href='https://fanuel-portfolio.herokuapp.com/'> <h2>Fanuel Alem </h2></a>  </span>
+     <h3 className='nav-text'> <a className='name-nav'   href='https://fanuel-portfolio.herokuapp.com/'>  Fanuel Alem  </a>  </h3>
   </div>
-          {/* <p style={{color:'white'}}>Fanuel Alem</p> */}
-          </Menu.Item>
+           </Menu.Item>
 </Menu.Menu>
-<Menu.Menu position='right'>
+<Menu.Menu 
+ position='right'
+>
     
     <Menu.Item
     as={Link}
@@ -51,7 +52,7 @@ export default class NavBar extends Component {
     active={activeItem === 'About'}
     onClick={this.handleItemClick}
           >
-         <h3 className='nav-text'  >
+         <h3 className='nav-text'>
             About </h3>
  
           </Menu.Item>
@@ -72,21 +73,14 @@ export default class NavBar extends Component {
             onClick={this.handleItemClick}>
 
  <a href='#sayhello' >
- <h3 className='nav-text'  >Contact</h3>
+ <h3 className='nav-text' >Contact</h3>
 
  </a>
  
             
  
           </Menu.Item>
-          {/* <Menu.Item
-            as={Link}
-             name='Learn'
-            active={activeItem === 'Learn'}
-            onClick={this.handleItemClick}
-          >
-    <p style={{color:'white'}}>Learn</p>
-    </Menu.Item> */}
+         
 </Menu.Menu>
         </Menu>
 

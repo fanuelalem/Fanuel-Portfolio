@@ -6,6 +6,16 @@ import Portfolio from '../Portfolio/portfolio'
 import { Route } from 'react-router-dom';
 import NavBar from '../../component/navBar/index'
 import ScrollToTop from './../../component/ScrollToTop'
+import {
+  Container,
+  Header,
+  Button,
+  Icon,
+  Grid,
+  Menu,
+  Segment,Image,Divider,Card
+
+} from 'semantic-ui-react'
 
 
 
@@ -14,6 +24,7 @@ function App() {
   return (
     <div className="App">
   <ScrollToTop className='scroll'/>
+  
   <NavBar  />
 
 

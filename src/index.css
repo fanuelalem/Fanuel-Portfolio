@@ -5,9 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
  }
 html {
   scroll-behavior: smooth;
+}
+body, html {
+  height: 100%;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -16,24 +20,28 @@ code {
 
   
 .navy{
-  top: 0;
+   top: 0;
     right: 0;
     left: 0;
     z-index: 1030;
-    position: fixed;
-    background-color: #1b1c1d;
+    /* position: fixed; */
+    background-color: #284053;
     padding-left: 25px;
     padding-right: 25px;
-    color:orange
+      padding-left:15px
    
  
  }
  .nav-text{
     
    color:white;
-   font-size:20px
+   font-size:20px;
+   /* font-family:'times new roman',times,serif */
  }
  
+ .bio-section{
+   text-align: left;
+ }
  .scroll{
    scroll-behavior: auto;
  }
@@ -45,8 +53,12 @@ code {
   color:#007bff
 }
  .name-nav{
-   color:white
+   color:white;
+   
+   /* font-size: 20px; */
+
  }
+  
 .lleft-menu-i{
   color:orange
 }
@@ -63,16 +75,47 @@ code {
   background-image: url('./component/Images/pic3.jpg');
   background-size:cover;
   }
+.id{
+  background-image: url('./component/Images/k.png');
+  background-size:cover;
+
+
+}
+
+.bioo{
+  background-image: url('./component/Images/blue_shape_pattern.png');
+  background-size:cover;
+
+
+
+}
+.css{
+  background-image: url('./component/Images/office-building-exterior.jpg');
+  height:100%;
+  background-size:cover;
+
+
+}
 /* .name{
   font-family: 'Brawler', serif;
 
 } */
 .background{
   /* background-color:#1b1c1d; */
-   background-image:url('./component/Images/build.jpg');
-  background-size: cover;
-  height:100%;
+    background-image:url('./component/Images/55.png');
+   height:100vh;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   
+  /* background-position: center; */ 
+
+
+   
+
+
  }
+  
 .check-resume{
   padding:100px
 }
@@ -80,15 +123,30 @@ code {
  
 
 .info{
-  padding-top:225px;
+  padding-top:75px;
   
 }
 .dcs{
   padding-bottom:6em
 }
- .image-bio{
-   border-radius:50%
- }
+.tech{
+   background-image:url('./component/Images/city.png');
+  height:90vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+
+   /* height:100vh; */
+
+  /* background-attachment: fixed; */
+    /* background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-position: center; */
+
+ 
+
+}
 
  .image-container{
   display:flex;
@@ -109,9 +167,43 @@ code {
  }
  
 .name{
-  color:#1b1c1d;
-  font-family: 'Lato', sans-serif;    /* font-family: 'Open Sans', sans-serif; */
+  /* color:#1b1c1d; */
+  /* font:italic normal normal 45px/1.4em 'times new roman',times,serif; */
+  color:white;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;  
+
+     /* font-family: "Times New Roman", Times, serif; */
+  /* font-family: 'Playfair Display', serif; */
+  /* font-weight: normal; */
+  /* font-family: 'Lato', sans-serif;     */
+  /* font-family: 'Open Sans', sans-serif; */
 }
+.txt{
+  font-family: 'Montserrat', sans-serif;  
+  font-size: 30px;
+  color:#284053
+
+}
+.pname{
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Aleo', serif; */
+  font-family: 'Roboto', sans-serif;
+
+  text-align: left;
+  font-size: 27px;
+  font-weight: normal;
+  margin:0 300px 0 10px
+  }
+  
+  .txt-2{
+    font-family: 'Roboto', sans-serif;
+    color:#646464
+
+  }
+  .descrip{
+    font-family: 'Roboto', sans-serif;
+  }
 
  
  
@@ -184,6 +276,7 @@ code {
   font-size:2rem;
   margin:8px
 }
+
 .link{
   font-size:2rem;
   margin:8px
