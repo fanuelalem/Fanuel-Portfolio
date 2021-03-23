@@ -18,7 +18,7 @@ import './../../index.css'
  import pwgenerator from './../../component/Images/password-generator.png'
  import weather from './../../component/Images/weather.png'
  import quiz from './../../component/Images/quiz-app.png'
- import Resume from './../../component/Images/FAResume.pdf'
+ import Resume from './../../component/Images/FAResume2.pdf'
  import buil from './../../component/Images/buil.jpg'
  import spic from './../../component/Images/jj.png'
 
@@ -271,11 +271,11 @@ Skills
 <Container  text>
 
  
-<Header as='h3' style={{ fontSize: '4em' }}>
+<Header as='h3' style={{ fontSize: '4em',fontFamily:"'Montserrat', sans-serif",color:"#284053" }}>
 Portfolio
         </Header>
 
-        <p style={{ fontSize: '1.2em' }}>Here's a selection of work I've done.
+        <p style={{ fontSize: '1.2em' }} className='descrip'>Here's a selection of work I've done.
 
 </p>
 <br></br>
@@ -417,10 +417,10 @@ Portfolio
  
 <Header  as='h3' style={{ fontSize: '4em' }}>
 
-   <span id='sayhello'> Say hello</span> 
+   <span id='sayhello' style={{fontFamily:"'Montserrat', sans-serif",color:"#284053" }} > Say Hello</span> 
         </Header>
 <br></br>
-        <p style={{ fontSize: '1.2em' }}>Reach out and say hi or connect with me. I look forward to hearing from you.
+        <p style={{ fontSize: '1.2em' }} className='descrip'>Reach out and say hi or connect with me. I look forward to hearing from you.
 
 
 

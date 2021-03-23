@@ -131,7 +131,7 @@ code {
 }
 .tech{
    background-image:url('./component/Images/city.png');
-  height:90vh;
+  height:70vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -203,6 +203,7 @@ code {
   }
   .descrip{
     font-family: 'Roboto', sans-serif;
+    color:#646464    
   }
 
  
