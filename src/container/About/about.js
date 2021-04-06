@@ -342,8 +342,32 @@ Portfolio
  </div>
 
  </div>
-
  <div className='pic'>
+ <Image className='image__img'  src={stock}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+   <h2> Stock Tracker</h2>
+   <br></br>
+ <p> This application is a helpful tool that helps you save stocks onto a personal wathclist. It provides information on the stock markets top 10 winners and losers of the day. 
+Users can also search and track any stock in the market and view stocks that are trending among other users.</p>
+ <p>Made using: HTML, CSS, JavaScript, Semantics UI, React, NodeJs, Mongo, PassportJS and Heroku.
+</p> 
+<br></br>
+<a href='https://thawing-bastion-89215.herokuapp.com/#/' target='_blank' > 
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/Project-3' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ </div>
+
+ </div>
+ {/* <div className='pic'>
  <Image className='image__img'  src={happytravel}   />
  <div className='image__overlay image__overlay--blur'>
 
@@ -367,7 +391,7 @@ Portfolio
 
  </div>
 
- </div>
+ </div> */}
 
  {/* <div className='pic'>
  <Image className='image__img'  src={stock}   />
