@@ -435,7 +435,7 @@ Users can also search and track any stock in the market and view stocks that are
  
 </Segment>
 
-<Segment style={{ padding: '6em 0em' }}vertical>
+{/* <Segment style={{ padding: '6em 0em' }}vertical>
 <Container  text>
 
  
@@ -468,37 +468,12 @@ Users can also search and track any stock in the market and view stocks that are
 </div>
        </Container>
  
-</Segment>
-<Container fluid>
+</Segment> */}
 
-     <p text className="para"style={{backgroundColor:'#1b1c1d',color:'white',padding:'20px'}}>
-       <a style={{color:'white'}} href='http://localhost:3000/'>
-       © 2020 Copyright Fanuel Alem.
-
-       </a>
-      <span className='spann'>
-<span className='git-icon'>
-  <a style={{color:'white'}}href='https://github.com/fanuelalem' target="_blank"> <Icon style={{fontSize:'1.7rem'}}name='github'></Icon>
-</a>
+   
  
-</span>
-<span className='linkedin-icon'>
-  <a style={{color:'white'}}href='https://www.linkedin.com/in/fanuel-alem-12991b32/' target="_blank">
-  <Icon style={{fontSize:'1.7rem'}} name='linkedin'></Icon>
 
-  </a>
  
-</span>
-<span>
-  <a style={{color:'white'}} href='mailto:fanuelnalem@outlook.com'> 
-<Icon style={{fontSize:'1.7rem'}}name='mail'></Icon>
-</a>
-</span>
- </span>
-
-    </p>
-    
-    </Container>
 
                             
                            

@@ -25,7 +25,7 @@ code {
     left: 0;
     z-index: 1030;
     /* position: fixed; */
-    background-color: #284053;
+    background-color: #00444f;
     padding-left: 25px;
     padding-right: 25px;
       padding-left:15px
@@ -74,6 +74,8 @@ code {
   min-height: 700px;
   background-image: url('./component/Images/pic3.jpg');
   background-size:cover;
+ 
+ 
   }
 .id{
   background-image: url('./component/Images/k.png');
@@ -184,6 +186,25 @@ code {
   font-size: 30px;
   color:#284053
 
+}
+.footerid{
+  background-image: url('./component/Images/overlayimage.png');
+  background-size: cover;
+  background-position: center;
+}
+.logo{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 35px;
+}
+.contactmefooter{
+  font-family: 'Poppins', sans-serif;
+  color:white;
+ 
+}
+.menufooter{
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  font-weight: 400;
 }
 .pname{
   /* font-family: 'Roboto', sans-serif; */

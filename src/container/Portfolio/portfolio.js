@@ -644,36 +644,7 @@ Users can also search and track any stock in the market and view stocks that are
        </Container>
  
 </Segment>
-<Container fluid>
-
-     <p text className="para"style={{backgroundColor:'#1b1c1d',color:'white',padding:'20px'}}>
-       <a style={{color:'white'}} href='http://localhost:3000/'>
-       <span id='sayhello'> © 2020 Copyright Fanuel Alem.</span> 
-
-       </a>
-      <span className='spann'>
-<span className='git-icon'>
-  <a style={{color:'white'}}href='https://github.com/fanuelalem'> <Icon style={{fontSize:'1.7rem'}}name='github'></Icon>
-</a>
  
-</span>
-<span className='linkedin-icon'>
-  <a style={{color:'white'}}href='https://www.linkedin.com/in/fanuel-alem-12991b32/'>
-  <Icon style={{fontSize:'1.7rem'}} name='linkedin'></Icon>
-
-  </a>
- 
-</span>
-<span>
-  <a style={{color:'white'}} href='mailto:fanuelnalem@outlook.com'> 
-<Icon style={{fontSize:'1.7rem'}}name='mail'></Icon>
-</a>
-</span>
- </span>
-
-    </p>
-    
-    </Container>
               </div>
 
  
