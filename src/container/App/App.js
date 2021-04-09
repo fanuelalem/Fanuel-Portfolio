@@ -57,7 +57,7 @@ function App() {
 
        <h3 className='contactmefooter'style={{padding:'70px 0 0 0',fontSize:"16px"}}>Menu</h3> 
       <br></br>
-      <a href='https://fanuel-portfolio.herokuapp.com/' target='_blank'>
+      <a href='https://fanuel-portfolio.herokuapp.com/'  >
       <h3 as={Link} to='/'  className='menufooter' style={{fontSize:"16px",margin:'0 0 2px 0'}}>About</h3> 
 
       </a>
