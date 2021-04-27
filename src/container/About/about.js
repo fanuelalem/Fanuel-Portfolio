@@ -115,16 +115,15 @@ export default class About extends Component {
   </h2>    
   
 
-  <p style={{textAlign:'left',fontSize:"16px",fontWeight:"200"}} className='txt-2'>Hi, I am a Full stack web developer leveraging a background in client management 
-  and I.T support to help build intuitive, engaging, and pleasant user experiences on the web. 
-  I transitioned into web development and was previously an account manager at a tech company 
-  helping non-profits, charities, and churches gain access to google products. In my role, 
-  I managed 100-200 clients per day and I quickly learned that many of their websites lacked an 
-  intuitive design. I decided that web development would be a useful skill to have. While business 
-  was my primary focus in college, I was heavily engaged in computer science courses and involved 
-  in extracurricular activity working as a freelance Wordpress developer. I'm interested in web 
-  development because I enjoy the problem solving process and am driven by the end result of a 
-  functioning application and helping to find solutions.</p>
+  <p style={{textAlign:'left',fontSize:"16px",fontWeight:"200"}} className='txt-2'>Hi,I am a Full stack web developer 
+  leveraging a background in client management and I.T support to help build intuitive, engaging, and pleasant 
+  user experiences on the web. I transitioned into web development and was previously an account manager offering 
+  support for clients and helping non-profits, charities, and churches gain access to technology tools. I managed 
+  100-200 clients per day, and I quickly learned that many of their websites lacked an intuitive design. I eventually 
+  acknowledged that the demand for web developers is growing and I wanted to utilize my technical capabilities to help 
+  companies build their online presence. While business was my primary focus in college, I was heavily engaged in computer 
+  science courses and involved in extracurricular activity doing web projects and working as a freelance Wordpress developer. 
+  I'm interested in web development because I enjoy the problem solving process and am dedicated to creating adequate solutions.</p>
 
               <p style={{textAlign:'left',fontSize:"16px",fontWeight:"200",margin:'0 0 50px 0'}} className='txt-2'>
               Most Recently earned a certificate in full stack web development 
