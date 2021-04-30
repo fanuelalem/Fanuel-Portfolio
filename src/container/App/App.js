@@ -43,9 +43,9 @@ function App() {
 
        <h3 className='contactmefooter'style={{padding:'70px 0 0 0',fontSize:"16px"}}>Contact Me</h3>  
        <br></br>
-      <h3 className='contactmefooter' style={{fontSize:"16px",margin:'0 0 2px 0'}}>(510) 452-7283</h3> 
-      <h3 className='contactmefooter' style={{fontSize:"16px",margin:'0 0 2px 0'}}>fanuelnalem@outlook.com</h3>   
-      <h3 className='contactmefooter' style={{fontSize:"16px",margin:'0 0 2px 0'}}>530 52nd st. Oakland</h3>    
+      <h3 className='contactmefooter' style={{fontSize:"16px",margin:'0 0 4px 0'}}>(510) 452-7283</h3> 
+      <h3 className='contactmefooter' style={{fontSize:"16px",margin:'0 0 4px 0'}}>fanuelnalem@outlook.com</h3>   
+      <h3 className='contactmefooter' style={{fontSize:"16px",margin:'0 0 4px 0'}}>530 52nd st. Oakland</h3>    
       <h3 className='contactmefooter' style={{fontSize:"16px",margin:'0 0 0 0'}}>94609</h3>    
 
       </div>
@@ -55,14 +55,20 @@ function App() {
          <div style={{textAlign:'left',marginLeft:'100px'}}>
 
 
-       <h3 className='contactmefooter'style={{padding:'70px 0 0 0',fontSize:"16px"}}>Menu</h3> 
+       <h3 className='contactmefooter'style={{padding:'70px 0 0 0',fontSize:"16px"}}>Social</h3> 
       <br></br>
-      <a href='https://fanuel-portfolio.herokuapp.com/'  >
-      <h3 as={Link} to='/'  className='menufooter' style={{fontSize:"16px",margin:'0 0 2px 0'}}>About</h3> 
+      
+      <a target='_blank' href='https://www.linkedin.com/in/fanuel-alem-12991b32/'>
+      <h3 className='menufooter' style={{fontSize:"16px",margin:'0 0 4px 0'}}>LinkedIn</h3>   
 
       </a>
-      <a href='https://fanuel-portfolio.herokuapp.com/portfolio'>
-      <h3 className='menufooter' style={{fontSize:"16px",margin:'0 0 2px 0'}}>Portfolio</h3>   
+      <a target='_blank' href='https://github.com/fanuelalem'>
+      <h3 className='menufooter' style={{fontSize:"16px",margin:'0 0 4px 0'}}>Github</h3>   
+
+      </a>
+
+      <a target='_blank' href='https://fanuel-portfolio.herokuapp.com/portfolio'>
+      <h3 className='menufooter' style={{fontSize:"16px",margin:'0 0 4px 0'}}>Portfolio</h3>   
 
       </a>
      
@@ -71,13 +77,18 @@ function App() {
 
  </Grid.Column>
       <Grid.Column width={4} style={{padding:"70px 0 0 0"}}>
-        <div style={{backgroundColor:"#60aafb",borderRadius:"50%",margin:' 0 150px 0 160px',padding:"10px 0 10px 0" }}>
+        {/* <div style={{backgroundColor:"#60aafb",borderRadius:"50%",margin:' 0 150px 0 160px',padding:"10px 0 10px 0" }}>
         <a style={{color:'white',padding:'70px 0 0 0'}}>
         <Icon size='large'name='mail'></Icon>     
 
         </a>
-        </div>
-        
+        </div> */}
+        <div >
+          <a href='mailto:fanuelnalem@outlook.com' style={{color:"#60aafb",margin:"0 150px 0 0"}}>
+          <Icon name='mail' size='big'></Icon>
+
+          </a>
+         </div>
        </Grid.Column>
     </Grid.Row>
     </Grid>
