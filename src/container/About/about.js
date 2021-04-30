@@ -115,7 +115,7 @@ export default class About extends Component {
   </h2>    
   
 
-  <p style={{textAlign:'left',fontSize:"16px",fontWeight:"200"}} className='txt-2'>Hi,I am a Full stack web developer 
+  <p style={{textAlign:'left',fontSize:"16px",fontWeight:"200"}} className='txt-2'>Hello, I am a Full stack web developer 
   leveraging a background in client management and I.T support to help build intuitive, engaging, and pleasant 
   user experiences on the web. I transitioned into web development and was previously an account manager offering 
   support for clients and helping non-profits, charities, and churches gain access to technology tools. I managed 

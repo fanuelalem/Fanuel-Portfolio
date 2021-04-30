@@ -36,7 +36,7 @@ export default class NavBar extends Component {
  
            <Menu.Item>
            <div>
-     <h3 className='nav-text'> <a className='name-nav'   href='https://fanuel-portfolio.herokuapp.com/'>  Fanuel Alem  </a>  </h3>
+     <h3 className='nav-text'> <a className='name-nav' style={{fontSize:"20px"}}   href='https://fanuel-portfolio.herokuapp.com/'>  Fanuel Alem  </a>  </h3>
   </div>
            </Menu.Item>
 </Menu.Menu>
