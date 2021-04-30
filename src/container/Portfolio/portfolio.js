@@ -530,7 +530,7 @@ Users can also search and track any stock in the market and view stocks that are
  <p>Made using: HTML, CSS, JavaScript, Semantics UI, React, NodeJs, Mongo, PassportJS and Heroku.
 </p> 
 <br></br>
-<a href='https://thawing-bastion-89215.herokuapp.com/#/' target='_blank' > 
+<a href='https://stocktracker10for10.herokuapp.com/' target='_blank' > 
 <i style={{color:'white'}}className="fas fa-link link"></i>
 
 </a>
