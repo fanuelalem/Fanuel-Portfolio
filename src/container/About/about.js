@@ -50,16 +50,22 @@ export default class About extends Component {
       </Grid.Column>
       <Grid.Column width={13}>
 
-      <h1 className='name'style={{fontSize:"65px",lineHeight:"1.2",padding:"60px 0 0 0",fontWeight:'800',textAlign:'left'}} > 
+      <h1 className='name'style={{fontSize:"65px",lineHeight:"1.2",padding:"100px 0 0 0",fontWeight:'800',textAlign:'left',margin:'0 0 8px 0'}} > 
       FANUEL N. ALEM
             
        </h1>
 
-       <p className='pname' style={{padding:'0 0 0 0',margin:"0 0 0 0",color:"#473f4f",padding:'2px 0 6px 0px'}} >  
+       <p className='pname' style={{padding:'0 0 0 0',margin:"0 0 0 0",color:"#473f4f",padding:'0 0 11px 0px'}} >  
 FULL-STACK SOFTWARE ENGINEER        
 <br></br></p>
+<div className='style'style={{textAlign:"left"}}> <a href='mailto:fanuelnalem@outlook.com'>
+<button className='sendmeamessage'><span style={{fontSize:'18px',color:'white',fontWeight:"bold"}}>Connect with me   
+</span>  </button>
 
-      </Grid.Column>
+  </a>
+    </div>
+
+        </Grid.Column>
     </Grid.Row>
     </Grid>
  

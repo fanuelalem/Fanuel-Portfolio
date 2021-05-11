@@ -36,26 +36,29 @@ export default class NavBar extends Component {
  
            <Menu.Item>
            <div>
-     <h3 className='nav-text'> <a className='name-nav' style={{fontSize:"20px"}}   href='https://fanuel-portfolio.herokuapp.com/'>  Fanuel Alem  </a>  </h3>
+     <h3 className='nav-text'> <a className='name-nav' style={{fontSize:"25px",paddingLeft:'45px'}}   href='https://fanuel-portfolio.herokuapp.com/'>  Fanuel Alem  </a>  </h3>
   </div>
            </Menu.Item>
 </Menu.Menu>
 <Menu.Menu 
  position='right'
 >
-    
-    <Menu.Item
-    as={Link}
+<div className='navItem'>
+<Menu.Item
+     as={Link}
     to='/'
     activeClassName='about-sec'
     name='About'
     active={activeItem === 'About'}
     onClick={this.handleItemClick}
           >
-         <h3 className='nav-text'>
+               <h3 className='nav-text' style={{fontWeight:"200"}}>
             About </h3>
+          
  
           </Menu.Item>
+</div>
+    
 
            <Menu.Item
             as={Link}
@@ -64,7 +67,7 @@ export default class NavBar extends Component {
             active={activeItem === 'Portfolio'}
             onClick={this.handleItemClick}
             >
-              <h3 className='nav-text'  >Portfolio</h3>
+              <h3 className='nav-text' style={{fontWeight:"200"}} >Portfolio</h3>
               </Menu.Item>
            <Menu.Item
             // as={Link}
@@ -73,7 +76,7 @@ export default class NavBar extends Component {
             onClick={this.handleItemClick}>
 
  <a href='#sayhello' >
- <h3 className='nav-text' >Contact</h3>
+ <h3 className='nav-text' style={{fontWeight:"200",paddingRight:'60px'}} >Contact</h3>
 
  </a>
  

@@ -28,10 +28,12 @@ code {
     background-color: transparent;
     padding-left: 25px;
     padding-right: 25px;
-      padding-left:15px
+      padding-left:15px;
+      padding-top: 25px;
    
  
  }
+  
  .nav-text{
     
    color:black;
@@ -54,12 +56,14 @@ code {
 }
  .name-nav{
    color:black;
+   font-weight: 200;
  
    
    /* font-size: 20px; */
 
  }
   
+ 
 .lleft-menu-i{
   color:orange
 }
@@ -106,7 +110,7 @@ code {
 .background{
   /* background-color:#1b1c1d; */
     background-image:url('./component/Images/photo-1439396087961-98bc12c21176-2200x914-2200x914.jpg');
-   height:90vh;
+   height:95vh;
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
@@ -215,10 +219,35 @@ code {
   font-family: 'Maven Pro', sans-serif;
  
   text-align: left;
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 400;
   margin:0 300px 0 10px
   }
+
+  .sendmeamessage{
+  background-color: #8b5eb4;
+  border:none;
+  margin-top:20px;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:35px;
+  padding-right:35px;
+  border-radius: 20px;
+  border:solid 1px black;
+  cursor: pointer;
+  outline:none
+
+
+}
+.sendmeamessage:hover{
+  border:1px solid #9d71c7;
+  background-color: #9d71c7;
+}
+.sendmeamessage{
+  font-family: 'Maven Pro', sans-serif;
+}
+ 
+ 
   
   .txt-2{
     font-family: 'Roboto', sans-serif;
