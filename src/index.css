@@ -24,8 +24,8 @@ code {
     right: 0;
     left: 0;
     z-index: 1030;
-    /* position: fixed; */
-    background-color: #00444f;
+    position: absolute;
+    background-color: transparent;
     padding-left: 25px;
     padding-right: 25px;
       padding-left:15px
@@ -34,7 +34,7 @@ code {
  }
  .nav-text{
     
-   color:white;
+   color:black;
    font-size:20px;
    /* font-family:'times new roman',times,serif */
  }
@@ -53,7 +53,7 @@ code {
   color:#007bff
 }
  .name-nav{
-   color:white;
+   color:black;
  
    
    /* font-size: 20px; */
@@ -105,7 +105,7 @@ code {
 } */
 .background{
   /* background-color:#1b1c1d; */
-    background-image:url('./component/Images/55.png');
+    background-image:url('./component/Images/photo-1439396087961-98bc12c21176-2200x914-2200x914.jpg');
    height:90vh;
    background-size: cover;
    background-position: center;
@@ -172,9 +172,11 @@ code {
 .name{
   /* color:#1b1c1d; */
   /* font:italic normal normal 45px/1.4em 'times new roman',times,serif; */
-  color:white;
+  color:black;
   text-align: left;
-  font-family: 'Montserrat', sans-serif;  
+  letter-spacing:8px;
+  font-family: 'Maven Pro', sans-serif;
+  /* font-family: 'Montserrat', sans-serif;   */
 
      /* font-family: "Times New Roman", Times, serif; */
   /* font-family: 'Playfair Display', serif; */
@@ -183,8 +185,8 @@ code {
   /* font-family: 'Open Sans', sans-serif; */
 }
 .txt{
-  font-family: 'Montserrat', sans-serif;  
-  font-size: 30px;
+  font-family: 'Maven Pro', sans-serif;
+    font-size: 30px;
   color:#284053
 
 }
@@ -210,11 +212,11 @@ code {
 .pname{
   /* font-family: 'Roboto', sans-serif; */
   /* font-family: 'Aleo', serif; */
-  font-family: 'Roboto', sans-serif;
-
+  font-family: 'Maven Pro', sans-serif;
+ 
   text-align: left;
-  font-size: 27px;
-  font-weight: normal;
+  font-size: 35px;
+  font-weight: 400;
   margin:0 300px 0 10px
   }
   

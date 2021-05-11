@@ -44,18 +44,20 @@ export default class About extends Component {
 
 <Grid divided='vertically'>
     <Grid.Row columns={2}>
-      <Grid.Column width={5}>
+      <Grid.Column width={3}>
 
 
       </Grid.Column>
-      <Grid.Column width={11}>
+      <Grid.Column width={13}>
 
-      <h1 className='name'style={{fontSize:"110px",lineHeight:"1.2",fontWeight:'bold',textAlign:'left'}} > 
-      Fanuel Alem
+      <h1 className='name'style={{fontSize:"65px",lineHeight:"1.2",padding:"60px 0 0 0",fontWeight:'800',textAlign:'left'}} > 
+      FANUEL N. ALEM
             
        </h1>
 
-       <p className='pname' style={{padding:'0 0 0 0',color:"white",backgroundColor:"#FFA46B",padding:'12px 0 6px 10px'}} >  Full-Stack Web Developer <br></br></p>
+       <p className='pname' style={{padding:'0 0 0 0',margin:"0 0 0 0",color:"#473f4f",padding:'2px 0 6px 0px'}} >  
+FULL-STACK SOFTWARE ENGINEER        
+<br></br></p>
 
       </Grid.Column>
     </Grid.Row>
