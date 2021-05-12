@@ -77,8 +77,8 @@ code {
   padding-top:225px;
   text-align:left;
   min-height: 700px;
-  background-image: ('./component/Images/pic3.jpg');
-  background-size:cover;
+   background-size:cover;
+  background-image: url(./component/Images/pic3.jpg);
  
  
   }

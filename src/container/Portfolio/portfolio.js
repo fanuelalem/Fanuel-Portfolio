@@ -49,7 +49,7 @@ inverted
         }}
     >
   
-      <p className='name'>                      A collection of work I've done.
+      <p className='pname' style={{color:'black',letterSpacing:"0",fontWeight:"700"}}>                      A collection of work I've done.
 </p>
         
       </Header>
