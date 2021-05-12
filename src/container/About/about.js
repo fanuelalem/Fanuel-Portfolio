@@ -10,23 +10,27 @@ import './../../index.css'
     Segment,Image,Divider,Card, Item
 
 } from 'semantic-ui-react'
+
  import pic from './../../component/Images/jbpic.png'
- 
+ import Aos from 'aos'
+ import AosScroll from './../Aos'
+ import 'aos/dist/aos.css'
  import happytravel from './../../component/Images/happytrav.png'
  import jedipic from './../../component/Images/jedipic.png'
- import stock from './../../component/Images/stock.png'
- import pwgenerator from './../../component/Images/password-generator.png'
- import weather from './../../component/Images/weather.png'
+ import stock from './../../component/Images/stockcanva.png'
+ import pwgenerator from './../../component/Images/psw.png'
+ import weather from './../../component/Images/weatherpic.png'
  import quiz from './../../component/Images/quiz-app.png'
  import Resume from './../../component/Images/FAResume2.pdf'
  import buil from './../../component/Images/buil.jpg'
  import spic from './../../component/Images/jj.png'
 
 import { right } from '@popperjs/core'
+import App from '../App/App'
   
  
 export default class About extends Component {
-    
+   
  
     render() {
 
@@ -147,7 +151,7 @@ FULL-STACK SOFTWARE ENGINEER
               </p>
 
               <a href={Resume} target="_blank" >
-            <Button color="linkedin"size='large'>View my resume.</Button>
+            <Button color="gray"size='large'>View my resume.</Button>
 
             </a>
   </Grid.Column>
@@ -227,12 +231,13 @@ FULL-STACK SOFTWARE ENGINEER
     
 
   */}
+  
 <div className='tech'>
 
    <Segment  style={{ padding: '10em 0em'}} vertical>
       <Container text>
-        <Header as='h3' style={{ fontSize: '4em',color:"white",fontFamily:"'Montserrat', sans-serif" }}>
-Skills
+        <Header as='h3' style={{ fontSize: '3.5em',color:"white",fontFamily:"'Maven Pro', sans-serif",fontWeight:"700",letterSpacing:'5px' }}>
+TECHNOLOGY
         </Header>
 <br></br>
         <Grid divided='vertically'>
@@ -272,21 +277,34 @@ Skills
     </Segment>
 
     </div>
-
-<Segment style={{ padding: '6em 0em' }}vertical>
-<Container  text>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <Container  text>
 
  
-<Header as='h3' style={{ fontSize: '4em',fontFamily:"'Montserrat', sans-serif",color:"#284053" }}>
-Portfolio
+<Header as='h3' style={{  fontSize: '3.5em',color:"black",fontFamily:"'Maven Pro', sans-serif",fontWeight:"700"}}>
+MY WORK
         </Header>
-
-        <p style={{ fontSize: '1.2em' }} className='descrip'>Here's a selection of work I've done.
-
-</p>
 <br></br>
-       
+        {/* <p style={{ fontSize: '1.2em' }} className='descrip'>Here's a selection of work I've done.
+
+</p> */}
+        
       </Container>
+       <AosScroll/>
+<div style={{height:'80px'}}>
+
+</div>
+
+{/* <div className='mywork'>
+
+</div> */}
+
+
+<Segment style={{ padding: '4em 0 6em 0em' }}vertical>
+ 
  
 <div className='card-containers'  >
 
@@ -373,59 +391,7 @@ Users can also search and track any stock in the market and view stocks that are
  </div>
 
  </div>
- {/* <div className='pic'>
- <Image className='image__img'  src={happytravel}   />
- <div className='image__overlay image__overlay--blur'>
-
- <div style={{padding:'20px'}}>
-   <h2> Happy Travels</h2>
-   <br></br>
- <p> This application gives users relevant information on local restaurants, events, and weather based on location and date.</p>
- <p>Made using: HTML, CSS, JavaScript,jQuery, Bootstrap, and GitHub Pages.
-</p> 
-<br></br>
-<a href='https://fanuelalem.github.io/happytravel/' target='_blank'>
-<i style={{color:'white'}}className="fas fa-link link"></i>
-
-</a>
-
-<a href='https://github.com/fanuelalem/happytravel' target='_blank'>
-<i style={{color:'white'}}className="fab fa-github github"></i>
-
-</a>
-  </div>
-
- </div>
-
- </div> */}
-
- {/* <div className='pic'>
- <Image className='image__img'  src={stock}   />
- <div className='image__overlay image__overlay--blur'>
-
- <div style={{padding:'20px'}}>
-   <h2> Stock Tracker</h2>
-   <br></br>
- <p> This application will provide information on the stock markets top 10 winners and gainers of the day. It gives users an informative insight and allows them to manage them on a watchlist. Users can also share and connect with other users.</p>
- <p>Made using: HTML, CSS, JavaScript, Semantics UI, React, NodeJs, Mongo, PassportJS and Heroku.
-</p> 
-<br></br>
-<a href='https://thawing-bastion-89215.herokuapp.com/#/' target='_blank' > 
-<i style={{color:'white'}}className="fas fa-link link"></i>
-
-</a>
-<a href='https://github.com/fanuelalem/Project-3' target='_blank'>
-<i style={{color:'white'}}className="fab fa-github github"></i>
-
-</a>
-  </div>
-
- </div>
-
- </div> */}
-
-  {/* <Image style={{margin:'.5rem'}}src={happytravel} size='large' /> */}
-  {/* <Image style={{margin:'.5rem'}}src={stock} size='large' /> */}
+ 
 
    </div>
   </div>
@@ -434,7 +400,7 @@ Users can also search and track any stock in the market and view stocks that are
 
   <a href='https://fanuel-portfolio.herokuapp.com/portfolio'>
 
-  <Button color="linkedin"size='large'>see more</Button>
+  <Button color="gray"size='large'>see more</Button>
     </a> 
 
 
