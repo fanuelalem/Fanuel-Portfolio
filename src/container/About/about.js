@@ -50,7 +50,7 @@ export default class About extends Component {
       </Grid.Column>
       <Grid.Column width={13}>
 
-      <h1 className='name'style={{fontSize:"65px",lineHeight:"1.2",padding:"100px 0 0 0",fontWeight:'800',textAlign:'left',margin:'0 0 8px 0'}} > 
+      <h1 className='name'style={{fontSize:"65px",lineHeight:"1.2",padding:"105px 0 0 0",fontWeight:'800',textAlign:'left',margin:'0 0 12px 0'}} > 
       FANUEL N. ALEM
             
        </h1>
@@ -59,7 +59,7 @@ export default class About extends Component {
 FULL-STACK SOFTWARE ENGINEER        
 <br></br></p>
 <div className='style'style={{textAlign:"left"}}> <a href='mailto:fanuelnalem@outlook.com'>
-<button className='sendmeamessage'><span style={{fontSize:'18px',color:'white',fontWeight:"bold"}}>Connect with me   
+<button className='sendmeamessage'><span style={{fontSize:'18px',color:'white',fontWeight:"bold"}}>Connect With Me   
 </span>  </button>
 
   </a>
