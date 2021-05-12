@@ -83,39 +83,16 @@ inverted
  </Container>
  
             
-             
+          
    
-<Segment style={{padding:'2em 0em 6em'}} vertical>
+<Segment style={{padding:"6em 0"}} vertical>
  
 
 <div className='card-containers' >
 
     
   <div className='image-container'>
-  {/* <div className='pic'>
- <Image className='image__img'  src={pwgenerator}   />
- <div className='image__overlay image__overlay--blur'>
-
-<div style={{padding:'20px'}}>
-   <h2> Password Generator</h2>
-   <br></br>
- <p> A web application that uses prompts to generate a random password.</p>
- <p>Made using: Made using: HTML, CSS, JavaScript, and GitHub Pages.
-</p> 
-<br></br>
-<a href='https://fanuelalem.github.io/password-generator/' target='_blank'>
-<i style={{color:'white'}}className="fas fa-link link"></i>
-
-</a>
-<a href='https://github.com/fanuelalem/password-generator' target='_blank'>
-<i style={{color:'white'}}className="fab fa-github github"></i>
-
-</a>
-  </div>
-
- </div>
-
- </div> */}
+  
     
  <div className='pic'>
  <Image className='image__img'  src={quiz}   />
@@ -153,41 +130,6 @@ inverted
 
   
 
-
- {/* <div className='pic'>
- <Image className='image__img'  src={dayplanner}   />
- <div className='image__overlay image__overlay--blur'>
-
- <div style={{padding:'20px'}}>
-
-
- 
-    <h2>   Work Day Scheduler
- 
- </h2>
-   <br></br>
- <p>   A web application that allows a user to plan their workday.
-
-</p>
- <p>Made using: HTML, JavaScript, jQuery, Bootstrap, and Moment.js.
-
-
-</p> 
-<br></br>
-<a href='https://fanuelalem.github.io/hw_5/' target='_blank'>
-<i style={{color:'white'}}className="fas fa-link link"></i>
-
-</a>
-<a href='https://github.com/fanuelalem/hw_5' target='_blank'>
-<i style={{color:'white'}}className="fab fa-github github"></i>
-
-</a>
-  </div>
-
- 
- </div>
-
- </div> */}
 
 <div className='pic'>
  <Image className='image__img'  src={weather}   />
@@ -256,39 +198,7 @@ Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
  </div>
 
  
-
-  
-
- {/* <div className='pic'>
- <Image className='image__img'  src={readmegenerator}   />
- <div className='image__overlay image__overlay--blur'>
-
- <div style={{padding:'20px'}}>
-
-
  
-    <h2>  Good ReadMe Generator
-</h2>
-   <br></br>
- <p>   A command-line application that will create a 'readme' file based off user input.
-
- </p>
- <p>Made using: Node.js, Axios, Dotenv, and Inquirer.
-
-
-</p> 
-<br></br>
- 
-<a href='https://github.com/fanuelalem/readme-generator' target='_blank'>
-<i style={{color:'white'}}className="fab fa-github github"></i>
-
-</a>
-  </div>
-
- 
- </div>
-
- </div> */}
 
   
 <div className='pic'>
@@ -321,81 +231,7 @@ Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
  </div>
 
  </div>
-  
- {/* <div className='pic'>
- <Image className='image__img'  src={teamprofile}   />
- <div className='image__overlay image__overlay--blur'>
-
- <div style={{padding:'20px'}}>
-
-
- 
-    <h2>  Team-Profile Generator
-</h2>
-   <br></br>
- <p>    A command-line application that will create an HTML file with employee information gathered from a series of prompts.
-
- 
- </p>
- <p>
    
- Made using: Node.js, Inquirer, and Jest.
-
-
-
-</p> 
-<br></br>
- 
-<a href='https://github.com/fanuelalem/team-profile-generator' target='_blank'>
-<i style={{color:'white'}}className="fab fa-github github"></i>
-
-</a>
-  </div>
-
- 
- </div>
-
- </div> */}
-
- {/* <div className='pic'>
- <Image className='image__img'  src={notetaker}   />
- <div className='image__overlay image__overlay--blur'>
-
- <div style={{padding:'20px'}}>
-
-
- 
-    <h2>  Notetaker
-</h2>
-   <br></br>
- <p>   
- A web application that allows a user to take notes using Express.
-
-  
- </p>
- <p>
-   
- Made using: HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js, Express, UUID, and Heroku.
-
-
-
-</p> 
-<br></br>
- 
-<a href='https://fanuelnotetaker.herokuapp.com/' target='_blank'>
-<i style={{color:'white'}}className="fas fa-link link"></i>
-
-</a>
-<a href='https://github.com/fanuelalem/Note_Taker' target='_blank'>
-<i style={{color:'white'}}className="fab fa-github github"></i>
-
-</a>
-  </div>
-
- 
- </div>
-
- </div> */}
 
  
  <div className='pic'>
@@ -481,7 +317,11 @@ Made using: Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint.
  
  
  
-</Segment>
+</Segment> 
+
+  
+ 
+   
 
 <br></br>
 <br></br>
@@ -651,3 +491,180 @@ Users can also search and track any stock in the market and view stocks that are
         )
     }
 }
+
+
+
+
+ {/* <div className='pic'>
+ <Image className='image__img'  src={dayplanner}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>   Work Day Scheduler
+ 
+ </h2>
+   <br></br>
+ <p>   A web application that allows a user to plan their workday.
+
+</p>
+ <p>Made using: HTML, JavaScript, jQuery, Bootstrap, and Moment.js.
+
+
+</p> 
+<br></br>
+<a href='https://fanuelalem.github.io/hw_5/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/hw_5' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
+ </div>
+
+ </div> */}
+
+
+
+ {/* <div className='pic'>
+ <Image className='image__img'  src={pwgenerator}   />
+ <div className='image__overlay image__overlay--blur'>
+
+<div style={{padding:'20px'}}>
+   <h2> Password Generator</h2>
+   <br></br>
+ <p> A web application that uses prompts to generate a random password.</p>
+ <p>Made using: Made using: HTML, CSS, JavaScript, and GitHub Pages.
+</p> 
+<br></br>
+<a href='https://fanuelalem.github.io/password-generator/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/password-generator' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ </div>
+
+ </div> */}
+
+
+
+  
+
+ {/* <div className='pic'>
+ <Image className='image__img'  src={readmegenerator}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>  Good ReadMe Generator
+</h2>
+   <br></br>
+ <p>   A command-line application that will create a 'readme' file based off user input.
+
+ </p>
+ <p>Made using: Node.js, Axios, Dotenv, and Inquirer.
+
+
+</p> 
+<br></br>
+ 
+<a href='https://github.com/fanuelalem/readme-generator' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
+ </div>
+
+ </div> */}
+
+
+
+ {/* <div className='pic'>
+ <Image className='image__img'  src={teamprofile}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>  Team-Profile Generator
+</h2>
+   <br></br>
+ <p>    A command-line application that will create an HTML file with employee information gathered from a series of prompts.
+
+ 
+ </p>
+ <p>
+   
+ Made using: Node.js, Inquirer, and Jest.
+
+
+
+</p> 
+<br></br>
+ 
+<a href='https://github.com/fanuelalem/team-profile-generator' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
+ </div>
+
+ </div> */}
+
+ {/* <div className='pic'>
+ <Image className='image__img'  src={notetaker}   />
+ <div className='image__overlay image__overlay--blur'>
+
+ <div style={{padding:'20px'}}>
+
+
+ 
+    <h2>  Notetaker
+</h2>
+   <br></br>
+ <p>   
+ A web application that allows a user to take notes using Express.
+
+  
+ </p>
+ <p>
+   
+ Made using: HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js, Express, UUID, and Heroku.
+
+
+
+</p> 
+<br></br>
+ 
+<a href='https://fanuelnotetaker.herokuapp.com/' target='_blank'>
+<i style={{color:'white'}}className="fas fa-link link"></i>
+
+</a>
+<a href='https://github.com/fanuelalem/Note_Taker' target='_blank'>
+<i style={{color:'white'}}className="fab fa-github github"></i>
+
+</a>
+  </div>
+
+ 
+ </div>
+
+ </div> */}

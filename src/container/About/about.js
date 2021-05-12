@@ -265,13 +265,14 @@ TECHNOLOGY
 <div className="About-icon-div"><i style={{fontSize:'5.5rem',color:'white'}}className="About-icon fab fa-node"></i><p className='descrip' style={{color:'white'}}>Node.js</p></div>
 
   </Grid.Column>
+   
 
     </Grid.Row>
 
    
   </Grid>
  
-
+  
         
       </Container>
     </Segment>
