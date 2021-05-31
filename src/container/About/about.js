@@ -22,7 +22,7 @@ import './../../index.css'
  
  import weather from './../../component/Images/weatherpic.png'
  import quiz from './../../component/Images/quiz-app.png'
- import Resume from './../../component/Images/FAResume2.pdf'
+ import Resume from './../../component/Images/fanuelResume.pdf'
  import buil from './../../component/Images/buil.jpg'
  import spic from './../../component/Images/jj.png'
 
