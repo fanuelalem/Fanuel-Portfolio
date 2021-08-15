@@ -172,7 +172,7 @@ function App() {
             </span>
             <span>
               <a
-                style={{ color: 'white', backgroundColor: 'red' }}
+                style={{ color: 'white'}}
                 href="mailto:fanuelnalem@outlook.com"
               >
                 <Icon style={{ fontSize: '1.7rem' }} name="mail"></Icon>

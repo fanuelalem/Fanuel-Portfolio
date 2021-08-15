@@ -12,9 +12,12 @@ import {
 import pic from './../../component/Images/jbpic.png';
 import AosScroll from './../Aos';
 import 'aos/dist/aos.css';
+import stock2 from './../../component/Images/stock2.png';
+import s1 from './../../component/Images/s1.png';
+import s2 from './../../component/Images/s2.png';
+
 import stock from './../../component/Images/stockcanva.png';
 import AdminApp from './../../component/Images/adminApp.png';
-
 import weather from './../../component/Images/weatherpic.png';
 import Resume from './../../component/Images/fanuelResume.pdf';
 
@@ -115,7 +118,6 @@ export default class About extends Component {
                   for clients and helping non-profits, charities, and churches
                   gain access to technology tools, and I quickly learned that
                   the demand for software developers is exceeding supply.
-                    
                 </p>
                 <p
                   style={{
@@ -125,14 +127,14 @@ export default class About extends Component {
                   }}
                   className="txt-2"
                 >
-                My primary focus of study at San Francisco State
-                  University was business administration, where I have been
-                  active in collaborating with teams to build business
-                  applications from the users end and working as a part time web
-                  developer. I have established a profound knowledge in React,
-                  Node.js, JavaScript, JQuery, MySQL, HTML, CSS3, Typescript,
-                  MongoDB and cultivated strong working relationships with
-                  diverse employees and types of clients.
+                  My primary focus of study at San Francisco State University
+                  was business administration, where I have been active in
+                  collaborating with teams to build business applications from
+                  the users end and working as a part time web developer. I have
+                  established a profound knowledge in React, Node.js,
+                  JavaScript, JQuery, MySQL, HTML, CSS3, Typescript, MongoDB and
+                  cultivated strong working relationships with diverse employees
+                  and types of clients.
                 </p>
 
                 <p
@@ -155,8 +157,10 @@ export default class About extends Component {
                 </p>
 
                 <a href={Resume} target="_blank" rel="noopener noreferrer">
-                  <Button 
-                  style={{backgroundColor:"#8b5eb4",color:"white"}} size="large">
+                  <Button
+                    style={{ backgroundColor: '#8b5eb4', color: 'white' }}
+                    size="large"
+                  >
                     View my resume.
                   </Button>
                 </a>
@@ -278,51 +282,10 @@ export default class About extends Component {
         <Segment style={{ padding: '4em 0 6em 0em' }} vertical>
           <div className="card-containers">
             <div className="image-container">
-              <div className="pic">
-                <Image className="image__img" src={AdminApp} />
-                <div className="image__overlay image__overlay--blur">
-                  <div style={{ padding: '20px' }}>
-                    <h2> Admin App</h2>
-                    <br></br>
-                    <p>
-                      {' '}
-                      A language learning educational app built with React and
-                      Semantic UI front-end framework, NodeJs and express
-                      back-end, JWT and local authentication, and MongoDB. Users
-                      can practice and review their progress and teachers can
-                      assign exercises.
-                    </p>
-                    <p>
-                      Made using: HTML, CSS, JavaScript, Semantics UI, React,
-                      NodeJs, Mongo, PassportJS and Heroku.
-                    </p>
-                    <br></br>
-                    <a
-                      href="https://carnatakehomeproject.herokuapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i
-                        style={{ color: 'white' }}
-                        className="fas fa-link link"
-                      ></i>
-                    </a>
-                    <a
-                      href="https://github.com/fanuelalem/AdminApp"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i
-                        style={{ color: 'white' }}
-                        className="fab fa-github github"
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
+              
 
               <div className="pic">
-                <Image className="image__img" src={stock} />
+                <Image className="image__img" src={s1} />
                 <div className="image__overlay image__overlay--blur">
                   <div style={{ padding: '20px' }}>
                     <h2> Stock Tracker</h2>
@@ -363,6 +326,51 @@ export default class About extends Component {
                   </div>
                 </div>
               </div>
+            
+              <div className="pic">
+                <Image className="image__img" src={s2} />
+                <div className="image__overlay image__overlay--blur">
+                  <div style={{ padding: '20px' }}>
+                    <h2> Admin App</h2>
+                    <br></br>
+                    <p>
+                      {' '}
+                      A language learning educational app built with React and
+                      Semantic UI front-end framework, NodeJs and express
+                      back-end, JWT and local authentication, and MongoDB. Users
+                      can practice and review their progress and teachers can
+                      assign exercises.
+                    </p>
+                    <p>
+                      Made using: HTML, CSS, JavaScript, Semantics UI, React,
+                      NodeJs, Mongo, PassportJS and Heroku.
+                    </p>
+                    <br></br>
+                    <a
+                      href="https://carnatakehomeproject.herokuapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i
+                        style={{ color: 'white' }}
+                        className="fas fa-link link"
+                      ></i>
+                    </a>
+                    <a
+                      href="https://github.com/fanuelalem/AdminApp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i
+                        style={{ color: 'white' }}
+                        className="fab fa-github github"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            
+            
               <div className="pic">
                 <Image className="image__img" src={weather} />
                 <div className="image__overlay image__overlay--blur">
@@ -409,7 +417,10 @@ export default class About extends Component {
           <br></br>
 
           <a href="https://fanuel-portfolio.herokuapp.com/portfolio">
-            <Button style={{backgroundColor:"#8b5eb4",color:"white"}} size="large">
+            <Button
+              style={{ backgroundColor: '#8b5eb4', color: 'white' }}
+              size="large"
+            >
               see more
             </Button>
           </a>

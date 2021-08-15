@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
-import {
-
-  Menu
-} from 'semantic-ui-react';
+import { Menu } from 'semantic-ui-react';
 
 // import sayhello from './../../container/About/about'
 
@@ -42,7 +39,7 @@ export default class NavBar extends Component {
                 <Menu.Item
                   as={Link}
                   to="/"
-                  activeClassName="about-sec"
+                  activeclassname="about-sec"
                   name="About"
                   active={activeItem === 'About'}
                   onClick={this.handleItemClick}
