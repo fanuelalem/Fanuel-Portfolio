@@ -17,6 +17,8 @@ import employeetracker from './../../component/Images/employee-tracker.png';
 import stock from './../../component/Images/stock.png';
 import employeedirectory from './../../component/Images/employee-directory.png';
 import fitnesstracker from './../../component/Images/fitnessTracker2.png';
+import s1 from './../../component/Images/s1.png';
+import s2 from './../../component/Images/s2.png';
 
 export default class Portfolio extends Component {
   render() {
@@ -306,7 +308,7 @@ export default class Portfolio extends Component {
           <div className="card-containers">
             <div className="image-container">
               <div className="pic">
-                <Image className="image__img" src={stock} />
+                <Image className="image__img" src={s1} />
                 <div className="image__overlay image__overlay--blur">
                   <div style={{ padding: '20px' }}>
                     <h2> Stock Tracker</h2>
@@ -552,25 +554,27 @@ export default class Portfolio extends Component {
  </div>
 
  </div> */}
-              <div className="pic">
-                <Image className="image__img" src={happytravel} />
+               <div className="pic">
+                <Image className="image__img" src={s2} />
                 <div className="image__overlay image__overlay--blur">
                   <div style={{ padding: '20px' }}>
-                    <h2> Happy Travels</h2>
+                    <h2> Admin App</h2>
                     <br></br>
                     <p>
                       {' '}
-                      This application gives users relevant information on local
-                      restaurants, events, and weather based on location and
-                      date.
+                      A language learning educational app built with React and
+                      Semantic UI front-end framework, NodeJs and express
+                      back-end, JWT and local authentication, and MongoDB. Users
+                      can practice and review their progress and teachers can
+                      assign exercises.
                     </p>
                     <p>
-                      Made using: HTML, CSS, JavaScript,jQuery, Bootstrap, and
-                      GitHub Pages.
+                      Made using: HTML, CSS, JavaScript, Semantics UI, React,
+                      NodeJs, Mongo, PassportJS and Heroku.
                     </p>
                     <br></br>
                     <a
-                      href="https://fanuelalem.github.io/happytravel/"
+                      href="https://carnatakehomeproject.herokuapp.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -579,9 +583,8 @@ export default class Portfolio extends Component {
                         className="fas fa-link link"
                       ></i>
                     </a>
-
                     <a
-                      href="https://github.com/fanuelalem/happytravel"
+                      href="https://github.com/fanuelalem/AdminApp"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -593,6 +596,7 @@ export default class Portfolio extends Component {
                   </div>
                 </div>
               </div>
+            
 
               {/* <Image style={{margin:'.5rem'}}src={happytravel} size='large' /> */}
               {/* <Image style={{margin:'.5rem'}}src={stock} size='large' /> */}
