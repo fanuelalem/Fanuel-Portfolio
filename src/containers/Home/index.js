@@ -107,6 +107,15 @@ export default class Home extends Component {
     const nav = document.getElementById('nav')
     const back = document.getElementById('back')
     const work = document.getElementById('header')
+    const gallary = document.getElementById('gallaryimage1')
+    const gallary2 = document.getElementById('gallaryimage2')
+    const gallary3 = document.getElementById('gallaryimage3')
+    const gallary4 = document.getElementById('gallaryimage4')
+    const gallary5 = document.getElementById('gallaryimage5')
+    const gallary6 = document.getElementById('gallaryimage6')
+    const gallary7 = document.getElementById('gallaryimage7')
+    const gallary8 = document.getElementById('gallaryimage8')
+    const gallary9 = document.getElementById('gallaryimage9')
 
     const top = image.getBoundingClientRect().top
     const height = window.innerHeight-50
@@ -137,6 +146,16 @@ export default class Home extends Component {
       icontext3.classList.add('already-on-page')
       icontext4.classList.add('already-on-page')
       work.classList.add('already-on-page')
+      gallary.classList.add('already-on-page')
+      gallary2.classList.add('already-on-page')
+      gallary3.classList.add('already-on-page')
+      gallary4.classList.add('already-on-page')
+      gallary5.classList.add('already-on-page')
+      gallary6.classList.add('already-on-page')
+      gallary7.classList.add('already-on-page')
+      gallary8.classList.add('already-on-page')
+      gallary9.classList.add('already-on-page')
+
     }else{
       image.classList.add('not-on-page')
       myinfo.classList.add('not-on-page')
@@ -161,6 +180,17 @@ export default class Home extends Component {
       icontext3.classList.add('not-on-page')
       icontext4.classList.add('not-on-page')
       work.classList.add('not-on-page')
+      gallary.classList.add('not-on-page')
+      gallary2.classList.add('not-on-page')
+      gallary3.classList.add('not-on-page')
+      gallary4.classList.add('not-on-page')
+      gallary5.classList.add('not-on-page')
+      gallary6.classList.add('not-on-page')
+      gallary7.classList.add('not-on-page')
+      gallary8.classList.add('not-on-page')
+      gallary9.classList.add('not-on-page')
+
+
     }
 
     const scrollFunction = (e) => {
@@ -177,6 +207,8 @@ export default class Home extends Component {
     const heightlessthen120 = top<window.innerHeight -120
     const heightlessthen340 = top<window.innerHeight -340
     const heightlessthen1300 = top<window.innerHeight -1300
+    const heightlessthen1400 = top<window.innerHeight -2150
+
     if(scrolly > getFixedClass){
       nav.classList.add('fixed')
     }
@@ -224,9 +256,20 @@ export default class Home extends Component {
         }
        
         if(heightlessthen1300 && work.classList.contains('not-on-page')){
-          work.classList.add('fade-in-left')
-           
-  
+          work.classList.add('fade-in-left')    
+        }
+
+        if(heightlessthen1400 && gallary.classList.contains('not-on-page')){
+          gallary.classList.add('gallaryfadeup')
+          gallary2.classList.add('gallaryfadeup2')
+          gallary3.classList.add('gallaryfadeup3')
+          gallary4.classList.add('gallaryfadeup4')
+          gallary5.classList.add('gallaryfadeup5')
+          gallary6.classList.add('gallaryfadeup6')
+          gallary7.classList.add('gallaryfadeup7')
+          gallary8.classList.add('gallaryfadeup8')
+          gallary9.classList.add('gallaryfadeup9')
+
         }
 
     }
@@ -819,11 +862,6 @@ className='mask-rap'
   
  
  
-<div>
-
-  
-</div>      
-
 
  
 
@@ -1358,7 +1396,9 @@ onClick={()=>{
  
 
 
-<div className={`${this.state.all == 'all'||this.state.all == 'react'? 'activediv' : 'inactivediv'}` }>
+<div  className={`${this.state.all == 'all'||this.state.all == 'react'? 'activediv' : 'inactivediv'}` }>
+
+ <div id='gallaryimage1' >
 
  
 <div className='yellow' >
@@ -1378,13 +1418,15 @@ onClick={()=>{
 </div>
 </div>
 </div>
- 
+ </div>
             
             </div>
    
  <div className={`${this.state.all == 'all'||this.state.all == 'react'? 'activediv' : 'inactivediv'}`}>
 
-   
+   <div id='gallaryimage2'  >
+
+    
 <div className='yellow1' >
  <div className='page'>
 
@@ -1403,13 +1445,14 @@ onClick={()=>{
 </div>
 </div>
 
-
+</div>
           
             </div>  
 
  <div className={`${this.state.all == 'all'||this.state.all == 'react'? 'activediv' : 'inactivediv'}`}>
 
-    
+ <div id='gallaryimage3'>
+
 <div className='yellow2' >
  <div className='page'>
 
@@ -1427,11 +1470,12 @@ onClick={()=>{
 </div>
 </div>
 </div>
-
+</div>
 
 </div>
           
 <div className={`${this.state.all == 'all'? 'activediv' : this.state.all =='js'? 'activedivjs': 'inactivediv'}`}>
+<div id='gallaryimage4'>
 
 <div className='yellow3' >
  <div className='page'>
@@ -1448,14 +1492,14 @@ onClick={()=>{
 </div>
 </div>
 </div>
-  
+  </div>
    
         </div>
          
    
              <div className={`${this.state.all == 'all'? 'activediv' : this.state.all =='node'? 'node1active' : 'inactivediv'}`}>
 
-      
+             <div id='gallaryimage5'>
 <div className='yellow4' >
  <div className='page'>
 
@@ -1474,13 +1518,14 @@ onClick={()=>{
 </div>
 </div>
   
-   
+   </div>
 
     </div>
 
         <div className={`${this.state.all == 'all'? 'activediv' : this.state.all =='js'? 'activedivjs2': 'inactivediv'}`}>
 
-   
+        <div id='gallaryimage6'>
+ 
 <div className='yellow5' >
  <div className='page'>
 
@@ -1499,14 +1544,15 @@ onClick={()=>{
 </div>
 </div>
   
-
+</div>
 
           </div>  
      
      
           <div className={`${this.state.all == 'all'? 'activediv' : this.state.all=='js'? 'activedivjs3': 'inactivediv'}`}>
 
-   
+          <div id='gallaryimage7'>
+
 <div className='yellow6' >
  <div className='page'>
 
@@ -1525,11 +1571,12 @@ onClick={()=>{
 </div>
 </div>
      
-
+</div>
         </div>
     
     
         <div className={`${this.state.all == 'all'? 'activediv' : this.state.all =='node'? 'node1active2' : 'inactivediv'}`}>
+        <div id='gallaryimage8'>
 
       
 <div className='yellow7' >
@@ -1551,7 +1598,7 @@ onClick={()=>{
 </div>
      
   
-  
+  </div>
   
    </div>
    
@@ -1559,7 +1606,8 @@ onClick={()=>{
    
    <div className={`${this.state.all == 'all'? 'activediv' :this.state.all =='js'? 'activedivjs4': 'inactivediv'}`}>
 
-    
+   <div id='gallaryimage9'>
+
    <div className='yellow8' >
  <div className='page'>
 
@@ -1577,7 +1625,7 @@ onClick={()=>{
 </div>
 </div>
 </div>
-  
+  </div>
 
 </div>
            

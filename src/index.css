@@ -1229,6 +1229,51 @@ to{opacity: 1;}
     animation:fadeInLeft .6s both
   }
 
+  .gallaryfadeup {
+    animation:fadeInUp .6s both
+
+  }
+
+  .gallaryfadeup2{
+    animation:fadeInUp .6s both;
+    animation-delay: .1s;
+  }
+  .gallaryfadeup3{
+    animation:fadeInUp .6s both;
+    animation-delay: .2s;
+
+  }
+  .gallaryfadeup4{
+    animation:fadeInUp .6s both;
+    animation-delay: .3s;
+
+  }
+  .gallaryfadeup5{
+    animation:fadeInUp .6s both;
+    animation-delay: .4s;
+
+  }
+  .gallaryfadeup6{
+    animation:fadeInUp .6s both;
+    animation-delay: .5s;
+
+  }
+  .gallaryfadeup7{
+    animation:fadeInUp .6s both;
+    animation-delay: .6s;
+
+  }
+  .gallaryfadeup8{
+    animation:fadeInUp .6s both;
+    animation-delay: .7s;
+
+  }
+  .gallaryfadeup9{
+    animation:fadeInUp .6s both;
+    animation-delay: .8s;
+
+  }
+
   .fade-in-icon{
     animation:iconText .75s ease both
 
@@ -1417,6 +1462,18 @@ to{opacity: 1;}
     100%{
       opacity:1;
       transform:translateX(0px)
+
+    }
+  }
+
+  @keyframes fadeInUp{
+    0%{
+      opacity:0;
+      transform:translateY(200px)
+    }
+    100%{
+      opacity:1;
+      transform:translateY(0px)
 
     }
   }
