@@ -1,84 +1,144 @@
 import React, { Component } from 'react';
 
-import { Menu } from 'semantic-ui-react';
+import { Menu,Breadcrumb } from 'semantic-ui-react';
 
 // import sayhello from './../../container/About/about'
 
 import { Link } from 'react-router-dom';
 
 export default class NavBar extends Component {
-  state = { activeItem: [] };
+ 
+  state = {
+    index:0
+  }
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name });
-  render(props) {
-    const { activeItem } = this.state;
+  componentDidMount = () => {
+    const scrollToTopElement = document.getElementById(this.props.topEl)
+    const aboutSection = document.getElementById(this.props.aboutEl)
+    const portfolioSection = document.getElementById(this.props.portfolioEl)
+    const contactSection = document.getElementById(this.props.contactEl)
+    const scrollContact = document.getElementById('scrolltocontact')
+    const HomeTab = document.getElementById('scroll-to-top')
+    const scrollportfolio = document.getElementById('scrolltoportfolio')
+    const scrolltoabout = document.getElementById('scrolltoabout')
 
+ 
+HomeTab.addEventListener('click',()=>{
+   scrollToTopElement.scrollIntoView()
+})
+    scrollContact.addEventListener('click',()=>{
+      contactSection.scrollIntoView()
+     })
+    
+    scrollportfolio.addEventListener('click',()=>{
+      portfolioSection.scrollIntoView()
+     })
+     scrolltoabout.addEventListener('click',()=>{
+       aboutSection.scrollIntoView()
+     })
+    // const topSection = document.getElementById('scrolltotop')
+    // const aboutSection = document.getElementById('scrolltoabout')
+    // const portfolioSection = document.getElementById('scrolltoportfolio')
+    // const contactSection = document.getElementById('scrolltocontact')
+    // const topItem = document.getElementById(this.props.topEl)
+    // const aboutItem = document.getElementById(this.props.aboutEl)
+    // const portfolioItem = document.getElementById(this.props.portfolioEl)
+    // const contactItem = document.getElementById(this.props.contactEl)
+
+    // topSection.addEventListener('click',()=>{
+    //   alert('hello')
+    // },false)
+   
+    
+    // aboutSection.addEventListener('click',()=>{
+    //   alert('hello')
+    // },false)
+     
+    // portfolioSection.addEventListener('click',()=>{
+
+    // },false)
+     
+    // contactSection.addEventListener('click',()=>{
+      
+    // },false)
+     
+  }
+ 
+   render() {
+ 
+    
     return (
-      <div>
-        <div className="navy">
-          <Menu secondary>
-            <Menu.Menu>
-              <Menu.Item>
-                <div>
-                  <h3 className="nav-text">
-                    {' '}
-                    <a
-                      className="name-nav"
-                      style={{ fontSize: '25px', paddingLeft: '45px' }}
-                      href="https://fanuel-portfolio.herokuapp.com/"
-                    >
-                      {' '}
-                      Fanuel Alem{' '}
-                    </a>{' '}
-                  </h3>
-                </div>
-              </Menu.Item>
-            </Menu.Menu>
-            <Menu.Menu position="right">
-              <div className="navItem">
-                <Menu.Item
-                  as={Link}
-                  to="/"
-                  activeclassname="about-sec"
-                  name="About"
-                  active={activeItem === 'About'}
-                  onClick={this.handleItemClick}
-                >
-                  <h3 className="nav-text" style={{ fontWeight: '200' }}>
-                    About{' '}
-                  </h3>
-                </Menu.Item>
-              </div>
+   
 
-              <Menu.Item
-                as={Link}
-                to="/portfolio"
-                name="Portfolio"
-                active={activeItem === 'Portfolio'}
-                onClick={this.handleItemClick}
-              >
-                <h3 className="nav-text" style={{ fontWeight: '200' }}>
-                  Portfolio
-                </h3>
-              </Menu.Item>
-              <Menu.Item
-                name="Contact"
-                active={activeItem === 'Contact'}
-                onClick={this.handleItemClick}
-              >
-                <a href="#sayhello">
-                  <h3
-                    className="nav-text"
-                    style={{ fontWeight: '200', paddingRight: '60px' }}
-                  >
-                    Contact
-                  </h3>
-                </a>
-              </Menu.Item>
-            </Menu.Menu>
-          </Menu>
-        </div>
+           
+        <div className=" flex navy" id={this.props.id}    >
+          <div style={{alignItems:"center",height:"100%",display:"flex"}}>
+
+        
+          <div style={{padding:'0 0 0 65px'}}>
+
+       
+        <Menu style={{margin:"0px"}} text>
+        
+        <Menu.Item
+          name='fanuel'
+            style={{margin:" 0 15px 0 0"}}
+          onClick={()=>{
+           this.setState({index:0})
+          }}
+        >
+                           <Link id='scrolltotop' >
+
+
+                <h1 id='scroll-to-top' className='menunavbar' style={{fontSize:"20px",fontWeight:"500",color:this.state.index == 0? 'black' :' grey'}}>HOME</h1>
+         
+         </Link>
+         </Menu.Item>
+        <Menu.Item
+          name='about'
+           
+          style={{margin:" 0 15px 0 0"}}
+          onClick={()=>{
+            this.setState({index:1})
+           }}
+        >
+                 <Link  >
+                      <h1 id='scrolltoabout' className='menunavbar' style={{fontSize:"20px",fontWeight:"500",color:this.state.index == 1 ? 'black' : "darkgrey"}}>ABOUT</h1>
+                      </Link> 
+        </Menu.Item>
+        <Menu.Item
+          name='portfolio'
+        
+          style={{margin:" 0 15px 0 0"}}
+          onClick={()=>{
+            this.setState({index:2})
+           }}
+        >
+                <Link   >
+                     <h1 id='scrolltoportfolio' className='menunavbar' style={{fontSize:"20px",color:this.state.index == 2? 'black' : "darkgrey",fontWeight:"500"}}>PORTFOLIO</h1>
+                     </Link> 
+        </Menu.Item>
+        <Menu.Item
+          name='contact'
+           onClick={()=>{
+            this.setState({index:4})
+           }}
+
+>
+<Link >
+
+
+                    <h1 id='scrolltocontact' className='menunavbar' style={{fontSize:"20px",fontWeight:"500",color:this.state.index == 4? 'black' : "darkgrey"}}>CONTACT</h1>
+                     </Link> 
+
+        </Menu.Item>
+      </Menu>
       </div>
-    );
+         
+           </div>
+        </div>
+     
+      
+     );
   }
 }
