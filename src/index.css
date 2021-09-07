@@ -784,6 +784,15 @@ body {
             opacity: 600ms linear;
              transform:translate(-150px,-300px);
           }
+          .node1active2{
+            transition: all 600ms ease 0ms;
+            opacity: 600ms linear;
+             transform:translate(240px,-600px);
+          }
+
+          
+
+         
 
           .activedivjs2{
             transition: all 600ms ease 0ms;
@@ -795,11 +804,7 @@ body {
             opacity: 600ms linear;
              transform:translate(780px,-600px);
           }
-          .node1active2{
-            transition: all 600ms ease 0ms;
-            opacity: 600ms linear;
-             transform:translate(240px,-600px);
-          }
+           
           .activedivjs{
             transition: all 600ms ease 0ms;
             opacity: 600ms linear;
