@@ -245,11 +245,14 @@ body {
     font-size: 10pt;
     margin: 0 auto;
     padding: 10px 20px 10px 20px;
-    
-    color:white;
+     color:white;
      font-family: 'Raleway', sans-serif;
      background-color: #e31b6d;
     transition: all 0.3s ease-in-out
+  }
+  .learnmorework2:before{
+    content:\F3CC;
+
   }
   .learnmorework2:hover {
     background-color: WHITE;
@@ -897,12 +900,9 @@ body {
    
   .logo {
     font-family: 'Roboto Mono', monospace;
-    font-size: 35px;
+    font-size: 38px;
   }
-  .contactmefooter {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-  }
+  
   .menufooter {
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -925,6 +925,12 @@ body {
     height: 70vh;
     background-color: #9d72c8;
   }
+
+  .pointerclicker::before {
+    font-family: "Font Awesome 5 Brands"; 
+	font-weight: 400;
+	content: "\F3CC";
+}
   .sendmeamessage {
     background-color: #8b5eb4;
     border: none;
@@ -934,9 +940,15 @@ body {
     padding-left: 31px;
     padding-right: 31px;
     border-radius: 23px;
-    border: solid 1.7px black;
+    border: solid 1px black;
     cursor: pointer;
     outline: none;
+    transition: all 0.2s ease-in-out;
+
+  }
+  .sendmeamessage:hover {
+    border: 1px solid #9d71c7;
+    background-color: #9d71c7;
   }
   .animate {
     transform: translateX(0%) translateY(0%);
@@ -965,10 +977,7 @@ body {
   }
   
    
-  .sendmeamessage:hover {
-    border: 1px solid #9d71c7;
-    background-color: #9d71c7;
-  }
+   
   .sendmeamessage {
     font-family: 'Maven Pro', sans-serif;
   }

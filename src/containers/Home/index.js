@@ -398,7 +398,12 @@ className='mask-rap'
 
   <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
     
-     VIEW SITE</button>
+  <i class="fas fa-external-link-alt" style={{marginRight:"9px",fontSize:'12px'}}></i>
+
+   
+     VIEW SITE
+     
+     </button>
 </a>
   </div>
    </div>
@@ -448,7 +453,8 @@ className='mask-rap'
 <div style={{marginTop:"10px"}}>
   <a href='https://learningmadeeazy.herokuapp.com/' target='_blank'>
   <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
-    
+  <i class="fas fa-external-link-alt" style={{marginRight:"9px",fontSize:'12px'}}></i>
+
      VIEW SITE</button>
 </a>
   </div>
@@ -504,7 +510,8 @@ className='mask-rap'
 
   <a href='https://thejedicode.herokuapp.com/' target='_blank'>
   <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
-    
+  <i class="fas fa-external-link-alt" style={{marginRight:"9px",fontSize:'12px'}}></i>
+
      VIEW SITE</button>
      </a>
 
@@ -553,7 +560,8 @@ className='mask-rap'
    
 <div style={{marginTop:"10px"}}>
   <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
-    
+  <i class="fas fa-external-link-alt" style={{marginRight:"9px",fontSize:'12px'}}></i>
+
      VIEW SITE</button>
 
   </div>
@@ -600,7 +608,8 @@ className='mask-rap'
 <p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.</p>
 <div style={{marginTop:"10px"}}>
   <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
-    
+  <i class="fas fa-external-link-alt" style={{marginRight:"9px",fontSize:'12px'}}></i>
+
      VIEW SITE</button>
 
   </div>
@@ -648,7 +657,8 @@ className='mask-rap'
 <p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.</p>
 <div style={{marginTop:"10px"}}>
   <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
-    
+  <i class="fas fa-external-link-alt" style={{marginRight:"9px",fontSize:'12px'}}></i>
+
      VIEW SITE</button>
 
   </div>
@@ -696,7 +706,8 @@ className='mask-rap'
    
 <div style={{marginTop:"10px"}}>
   <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
-    
+  <i class="fas fa-external-link-alt" style={{marginRight:"9px",fontSize:'12px'}}></i>
+
      VIEW SITE</button>
 
   </div>
@@ -745,7 +756,8 @@ className='mask-rap'
 
 
   <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
-    
+  <i class="fas fa-external-link-alt" style={{marginRight:"9px",fontSize:'12px'}}></i>
+
      VIEW SITE</button>
 
   </div>
@@ -790,6 +802,16 @@ className='mask-rap'
 <h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Stock Tracker</h1>
 <h1 className='work5'>Personal Finances Organizer </h1>
 <p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.</p>
+   
+<div style={{marginTop:"10px"}}>
+
+
+<button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
+<i class="fas fa-external-link-alt" style={{marginRight:"9px",fontSize:'12px'}}></i>
+
+   VIEW SITE</button>
+
+</div>
    </div>
  
  </div>
