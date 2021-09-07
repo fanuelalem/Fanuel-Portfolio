@@ -433,7 +433,10 @@ className='mask-rap'
    <div style={{borderTop:"3px solid black",padding:'35px 0 0 20px'}}>
 <h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Stock Tracker</h1>
 <h1 className='work5'>Personal Finances Organizer </h1>
-<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.</p>
+<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300",paddingRight:"20px"}}>
+  The Stock Tracking Application, a platform where users can save and track trending stocks in the market. There is also a mobile version,
+  built using React Native. 
+</p>
   
   
   <div style={{marginTop:"10px"}}>
@@ -489,9 +492,14 @@ className='mask-rap'
  
 
    <div style={{borderTop:"3px solid black",padding:'35px 0 0 20px'}}>
-<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Stock Tracker</h1>
-<h1 className='work5'>Personal Finances Organizer </h1>
-<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.</p>
+<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Learning Made Eazy</h1>
+<h1 className='work5'>Online Learning </h1>
+<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300",paddingRight:"20px"}}>
+  A user friendly and convenient admin application for teachers and Students
+   that comes with a diverse collection of academic content.
+ 
+  
+  </p>
    
 <div style={{marginTop:"10px"}}>
   <a href='https://learningmadeeazy.herokuapp.com/' target='_blank'>
@@ -545,10 +553,12 @@ className='mask-rap'
  
 
    <div style={{borderTop:"3px solid black",padding:'35px 0 0 20px'}}>
-<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Stock Tracker</h1>
-<h1 className='work5'>Personal Finances Organizer </h1>
-<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.</p>
-   
+<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Star Wars Personality Quiz</h1>
+<h1 className='work5'>Interactive quiz </h1>
+<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300",paddingRight:"20px"}}>
+  An application for Star Wars enthusiasts who are interested in discovering which characters they resemble the most
+  based on a given set of questions. 
+   </p>
 <div style={{marginTop:"10px"}}>
 
   <a href='https://thejedicode.herokuapp.com/' target='_blank'>
@@ -597,9 +607,11 @@ className='mask-rap'
  
 
    <div style={{borderTop:"3px solid black",padding:'35px 0 0 20px'}}>
-<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Stock Tracker</h1>
-<h1 className='work5'>Personal Finances Organizer </h1>
-<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.</p>
+<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Weather Dashboard</h1>
+<h1 className='work5'>Javascript Functionality </h1>
+<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300",paddingRight:"20px"}}>
+  A Weather Dashboard that gives users weather forecast for the upcoming week in any city.
+    </p>
    
 <div style={{marginTop:"10px"}}>
   <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
@@ -646,9 +658,14 @@ className='mask-rap'
  
 
    <div style={{borderTop:"3px solid black",padding:'35px 0 0 20px'}}>
-<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Stock Tracker</h1>
-<h1 className='work5'>Personal Finances Organizer </h1>
-<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.</p>
+<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Employee Tracker</h1>
+<h1 className='work5'>NodeJs CLI </h1>
+<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300",paddingRight:"20px"}}>
+  
+A software engineering team generator command line application that prompts
+ the user for information about the team manager and information about
+ the team members. The user may inquire about members and input new ones.
+  </p>
 <div style={{marginTop:"10px"}}>
   <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
   <i class="fas fa-external-link-alt" style={{marginRight:"9px",fontSize:'12px'}}></i>
@@ -695,9 +712,12 @@ className='mask-rap'
  
 
    <div style={{borderTop:"3px solid black",padding:'35px 0 0 20px'}}>
-<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Stock Tracker</h1>
-<h1 className='work5'>Personal Finances Organizer </h1>
-<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.</p>
+<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>NoteBook Application</h1>
+<h1 className='work5'>Javascript Functionality </h1>
+<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300",paddingRight:"20px"}}>
+An application that can be used to write, save, and delete notes. This application uses
+ an express backend to save and retrieve note data from a JSON file.
+   </p>
 <div style={{marginTop:"10px"}}>
   <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
   <i class="fas fa-external-link-alt" style={{marginRight:"9px",fontSize:'12px'}}></i>
@@ -743,9 +763,14 @@ className='mask-rap'
  
 
    <div style={{borderTop:"3px solid black",padding:'35px 0 0 20px'}}>
-<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Stock Tracker</h1>
-<h1 className='work5'>Personal Finances Organizer </h1>
-<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.</p>
+<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Code Quiz</h1>
+<h1 className='work5'>Javascript Functionality </h1>
+<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300",paddingRight:"20px"}}>
+A code quiz with multiple-choice questions that runs in the browser and feature 
+dynamically updated HTML & CSS powered with JavaScript code. It also features a clean and polished 
+user interface that's responsive, ensuring that it adapts to multiple screen sizes.
+ 
+    </p>
    
 <div style={{marginTop:"10px"}}>
   <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
@@ -792,9 +817,10 @@ className='mask-rap'
  
 
    <div style={{borderTop:"3px solid black",padding:'35px 0 0 20px'}}>
-<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Stock Tracker</h1>
-<h1 className='work5'>Personal Finances Organizer </h1>
-<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.</p>
+<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Github Profile Creator</h1>
+<h1 className='work5'>CLI PDF generator </h1>
+<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>
+A command-line application that dynamically generates a PDF profile from a GitHub username</p>
 <div style={{marginTop:"10px"}}>
 
 
@@ -816,7 +842,7 @@ className='mask-rap'
 <div className='mask' id='overlay8'>
 
 </div>
-<div className='modal1' style={{maxWidth:"700px",height:"680px"}}>
+<div className='modal1' style={{maxWidth:"700px",height:"710px"}}>
   
 
 <div class="slider">
@@ -842,9 +868,13 @@ className='mask-rap'
  
 
    <div style={{borderTop:"3px solid black",padding:'35px 0 0 20px'}}>
-<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Stock Tracker</h1>
-<h1 className='work5'>Personal Finances Organizer </h1>
-<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.</p>
+<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Password Generator</h1>
+<h1 className='work5'>Javascript Functionality </h1>
+<p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>
+An application that generates a random password based on user-selected criteria. This app will run in 
+the browser and feature dynamically updated HTML and CSS powered by JavaScript code. 
+It also features a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+  </p>
    
 <div style={{marginTop:"10px"}}>
 
