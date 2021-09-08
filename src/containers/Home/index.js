@@ -694,7 +694,7 @@ className='mask-rap'
     return(
       <div class="slide" style={{transform:`translateX(${this.state.x6}%)`}} >
 
-       <div style={{width:"100%",height:"100%",backgroundImage:`url(${item.image})`,backgroundSize:"cover",backgroundPosition:"center"}}>
+       <div style={{width:"100%",height:"100%",backgroundImage:`url(${item.image})`,backgroundSize:"cover",backgroundPosition:"top"}}>
           </div>
 
               </div>
