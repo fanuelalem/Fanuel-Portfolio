@@ -335,7 +335,7 @@ body {
   
    .bgmg{
 
-    background-image: url('./components/Images/psw.png');
+    background-image: url('./components/Images/productpage.jpg');
     background-size: cover;
    
 
@@ -733,7 +733,7 @@ body {
 
 
  .yellow8{
-  background-image: url('./components/Images/psw.png');
+  background-image: url('./components/Images/productpage.jpg');
   background-size: cover; 
   height: 300px;
   width: 390px;

@@ -29,7 +29,7 @@ import modalshot9 from './../../components/Images/modalshot9.png'
  import modalshot10 from './../../components/Images/modalshot10.png'
  import modalshot11 from './../../components/Images/modalshot11.png'
  import modalshot12 from './../../components/Images/modalshot12.png'
- import modalshot13 from './../../components/Images/modalshot13.png'
+ import modalshot13 from './../../components/Images/pic.png'
  import clickhere from './../../components/Images/click.png'
  import AosScroll from './../Aos';
 import 'aos/dist/aos.css';
@@ -868,22 +868,22 @@ className='mask-rap'
  
 
    <div style={{borderTop:"3px solid black",padding:'35px 0 0 20px'}}>
-<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Password Generator</h1>
-<h1 className='work5'>Javascript Functionality </h1>
+<h1 style={{color:"#616161",margin:"0px",fontSize:"28px"}} className='work'>Product page</h1>
+<h1 className='work5'>Typescript Functionality </h1>
 <p className='poppins4' style={{marginTop:"15px",fontSize:"16px",color:"#444",fontWeight:"300"}}>
-An application that generates a random password based on user-selected criteria. This app will run in 
-the browser and feature dynamically updated HTML and CSS powered by JavaScript code. 
-It also features a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+A dummy product page built with typescript. (still in progress)
   </p>
    
 <div style={{marginTop:"10px"}}>
+
+<a href='https://aqueous-fjord-97628.herokuapp.com/' target='_blank'>
 
 
 <button className='btn learnmorework2' data-target='#modal11' style={{fontWeight:"bold"}}>
 <i class="fas fa-external-link-alt" style={{marginRight:"9px",fontSize:'12px'}}></i>
 
    VIEW SITE</button>
-
+   </a>
 </div>
    </div>
  
@@ -1404,7 +1404,7 @@ style={{width:"100%",height:"30%",display:"flex",backgroundColor:this.state.all 
 <div className={`push`} 
 onClick={()=>{
   this.setState({all:'js'})
-}}    style={{width:"100%",height:"30%",display:"flex",alignItems:"center",justifyContent:"center",margin:"5px",backgroundColor:this.state.all == 'js'? "#8b5eb4" : null}}><p style={{color:this.state.all == 'js'? "white" : '#616161',fontSize:"20px",fontWeight:"500"}}>JAVASCRIPT </p> </div>
+}}    style={{width:"100%",height:"30%",display:"flex",alignItems:"center",justifyContent:"center",margin:"5px",backgroundColor:this.state.all == 'js'? "#8b5eb4" : null}}><p style={{color:this.state.all == 'js'? "white" : '#616161',fontSize:"20px",fontWeight:"500"}}>JAVASCRIPT/TYPESCRIPT </p> </div>
 
 
 
@@ -1644,7 +1644,7 @@ onClick={()=>{
  
   
 <div className='cardcontent1' >
-<h2 className='work' style={{margin:"0px"}}>Password Generator </h2>
+<h2 className='work' style={{margin:"0px"}}>Product Page </h2>
 <p style={{margin:"5px 0 0 0",color:"#e31b6d",fontSize:"18px"}}>HTML & CSS / Jquery / Javascript</p>
 </div>
 
